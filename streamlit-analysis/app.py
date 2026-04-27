@@ -492,7 +492,7 @@ hr {
 </style>
 """, unsafe_allow_html=True)
 
-with open("data/bulk_onboarding_output.json", "r", encoding="utf-8") as file:
+with open("streamlit-analysis/data/bulk_onboarding_output.json", "r", encoding="utf-8") as file:
     bulk_data = json.load(file)
 
 st.title("New Hire Experience Orchestrator")
