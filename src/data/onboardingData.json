@@ -1,0 +1,5619 @@
+[
+  {
+    "employee_id": "3427",
+    "name": "Uriah Bridges",
+    "role": "Production Technician I",
+    "department": "Production       ",
+    "manager": "Peter Oneill",
+    "employee_type": "Contract",
+    "seniority": "mid",
+    "work_mode": "hybrid",
+    "profile_analysis": {
+      "employee_name": "Uriah Bridges",
+      "role": "Production Technician I",
+      "department": "Production       ",
+      "identified_needs": [
+        "Hybrid work expectations",
+        "Office coordination"
+      ],
+      "template_used": false
+    },
+    "onboarding_journey": {
+      "day_1": [],
+      "week_1": [],
+      "day_30": [
+        {
+          "owner": "Manager",
+          "task": "Run 30-day onboarding check-in",
+          "purpose": "Assess progress"
+        }
+      ],
+      "day_60": [
+        {
+          "owner": "Manager",
+          "task": "Run 60-day progress review",
+          "purpose": "Assess autonomy"
+        }
+      ],
+      "day_90": [
+        {
+          "owner": "Manager",
+          "task": "Run 90-day onboarding review",
+          "purpose": "Final onboarding evaluation"
+        }
+      ]
+    },
+    "onboarding_tasks": [
+      {
+        "task_id": "TASK_001",
+        "phase": "day_30",
+        "owner": "Manager",
+        "task": "Run 30-day onboarding check-in",
+        "purpose": "Assess progress",
+        "status": "completed",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_002",
+        "phase": "day_60",
+        "owner": "Manager",
+        "task": "Run 60-day progress review",
+        "purpose": "Assess autonomy",
+        "status": "completed",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_003",
+        "phase": "day_90",
+        "owner": "Manager",
+        "task": "Run 90-day onboarding review",
+        "purpose": "Final onboarding evaluation",
+        "status": "completed",
+        "priority": "medium"
+      }
+    ],
+    "friction_report": {
+      "friction_count": 3,
+      "frictions": [
+        {
+          "type": "missing_day_1_plan",
+          "severity": "high",
+          "message": "No Day 1 onboarding tasks were created."
+        },
+        {
+          "type": "missing_buddy_support",
+          "severity": "medium",
+          "message": "No buddy-related task was found."
+        },
+        {
+          "type": "missing_system_access",
+          "severity": "high",
+          "message": "No IT access task was found."
+        }
+      ]
+    },
+    "progress_summary": {
+      "total_tasks": 3,
+      "completed_tasks": 3,
+      "pending_tasks": 0,
+      "completion_rate": 100.0,
+      "overall_status": "at_risk",
+      "design_risk_count": 3,
+      "execution_risk_count": 0,
+      "key_risks": [
+        {
+          "type": "missing_day_1_plan",
+          "severity": "high",
+          "message": "No Day 1 onboarding tasks were created."
+        },
+        {
+          "type": "missing_system_access",
+          "severity": "high",
+          "message": "No IT access task was found."
+        }
+      ],
+      "all_frictions": [
+        {
+          "type": "missing_day_1_plan",
+          "severity": "high",
+          "message": "No Day 1 onboarding tasks were created."
+        },
+        {
+          "type": "missing_buddy_support",
+          "severity": "medium",
+          "message": "No buddy-related task was found."
+        },
+        {
+          "type": "missing_system_access",
+          "severity": "high",
+          "message": "No IT access task was found."
+        }
+      ],
+      "recommended_next_action": "Fix onboarding design gaps before evaluating execution progress."
+    }
+  },
+  {
+    "employee_id": "3428",
+    "name": "Paula Small",
+    "role": "Production Technician I",
+    "department": "Production       ",
+    "manager": "Renee Mccormick",
+    "employee_type": "Contract",
+    "seniority": "mid",
+    "work_mode": "hybrid",
+    "profile_analysis": {
+      "employee_name": "Paula Small",
+      "role": "Production Technician I",
+      "department": "Production       ",
+      "identified_needs": [
+        "Hybrid work expectations",
+        "Office coordination"
+      ],
+      "template_used": false
+    },
+    "onboarding_journey": {
+      "day_1": [],
+      "week_1": [],
+      "day_30": [
+        {
+          "owner": "Manager",
+          "task": "Run 30-day onboarding check-in",
+          "purpose": "Assess progress"
+        }
+      ],
+      "day_60": [
+        {
+          "owner": "Manager",
+          "task": "Run 60-day progress review",
+          "purpose": "Assess autonomy"
+        }
+      ],
+      "day_90": [
+        {
+          "owner": "Manager",
+          "task": "Run 90-day onboarding review",
+          "purpose": "Final onboarding evaluation"
+        }
+      ]
+    },
+    "onboarding_tasks": [
+      {
+        "task_id": "TASK_001",
+        "phase": "day_30",
+        "owner": "Manager",
+        "task": "Run 30-day onboarding check-in",
+        "purpose": "Assess progress",
+        "status": "completed",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_002",
+        "phase": "day_60",
+        "owner": "Manager",
+        "task": "Run 60-day progress review",
+        "purpose": "Assess autonomy",
+        "status": "completed",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_003",
+        "phase": "day_90",
+        "owner": "Manager",
+        "task": "Run 90-day onboarding review",
+        "purpose": "Final onboarding evaluation",
+        "status": "completed",
+        "priority": "medium"
+      }
+    ],
+    "friction_report": {
+      "friction_count": 3,
+      "frictions": [
+        {
+          "type": "missing_day_1_plan",
+          "severity": "high",
+          "message": "No Day 1 onboarding tasks were created."
+        },
+        {
+          "type": "missing_buddy_support",
+          "severity": "medium",
+          "message": "No buddy-related task was found."
+        },
+        {
+          "type": "missing_system_access",
+          "severity": "high",
+          "message": "No IT access task was found."
+        }
+      ]
+    },
+    "progress_summary": {
+      "total_tasks": 3,
+      "completed_tasks": 3,
+      "pending_tasks": 0,
+      "completion_rate": 100.0,
+      "overall_status": "at_risk",
+      "design_risk_count": 3,
+      "execution_risk_count": 0,
+      "key_risks": [
+        {
+          "type": "missing_day_1_plan",
+          "severity": "high",
+          "message": "No Day 1 onboarding tasks were created."
+        },
+        {
+          "type": "missing_system_access",
+          "severity": "high",
+          "message": "No IT access task was found."
+        }
+      ],
+      "all_frictions": [
+        {
+          "type": "missing_day_1_plan",
+          "severity": "high",
+          "message": "No Day 1 onboarding tasks were created."
+        },
+        {
+          "type": "missing_buddy_support",
+          "severity": "medium",
+          "message": "No buddy-related task was found."
+        },
+        {
+          "type": "missing_system_access",
+          "severity": "high",
+          "message": "No IT access task was found."
+        }
+      ],
+      "recommended_next_action": "Fix onboarding design gaps before evaluating execution progress."
+    }
+  },
+  {
+    "employee_id": "3429",
+    "name": "Edward Buck",
+    "role": "Area Sales Manager",
+    "department": "Sales",
+    "manager": "Crystal Walker",
+    "employee_type": "Full-Time",
+    "seniority": "senior",
+    "work_mode": "hybrid",
+    "profile_analysis": {
+      "employee_name": "Edward Buck",
+      "role": "Area Sales Manager",
+      "department": "Sales",
+      "identified_needs": [
+        "Hybrid work expectations",
+        "Office coordination"
+      ],
+      "template_used": false
+    },
+    "onboarding_journey": {
+      "day_1": [
+        {
+          "owner": "IT",
+          "task": "Create access to: CRM, Email, Slack, Sales Dashboard",
+          "purpose": "Ensure system readiness"
+        },
+        {
+          "owner": "Manager",
+          "task": "Meet manager and buddy",
+          "purpose": "Onboarding step: Meet manager and buddy"
+        },
+        {
+          "owner": "IT",
+          "task": "Get access to CRM and sales tools",
+          "purpose": "Onboarding step: Get access to CRM and sales tools"
+        },
+        {
+          "owner": "New Hire",
+          "task": "Review sales process",
+          "purpose": "Onboarding step: Review sales process"
+        }
+      ],
+      "week_1": [
+        {
+          "owner": "Buddy",
+          "task": "Shadow one client call",
+          "purpose": "Onboarding step: Shadow one client call"
+        },
+        {
+          "owner": "New Hire",
+          "task": "Review active pipeline",
+          "purpose": "Onboarding step: Review active pipeline"
+        },
+        {
+          "owner": "New Hire",
+          "task": "Prepare first account summary",
+          "purpose": "Onboarding step: Prepare first account summary"
+        }
+      ],
+      "day_30": [
+        {
+          "owner": "New Hire",
+          "task": "Manage first low-risk client interaction",
+          "purpose": "Onboarding step: Manage first low-risk client interaction"
+        },
+        {
+          "owner": "Manager",
+          "task": "Run 30-day onboarding check-in",
+          "purpose": "Assess progress"
+        }
+      ],
+      "day_60": [
+        {
+          "owner": "New Hire",
+          "task": "Own a small sales opportunity",
+          "purpose": "Onboarding step: Own a small sales opportunity"
+        },
+        {
+          "owner": "Manager",
+          "task": "Run 60-day progress review",
+          "purpose": "Assess autonomy"
+        }
+      ],
+      "day_90": [
+        {
+          "owner": "New Hire",
+          "task": "Independently manage a defined account segment",
+          "purpose": "Onboarding step: Independently manage a defined account segment"
+        },
+        {
+          "owner": "Manager",
+          "task": "Run 90-day onboarding review",
+          "purpose": "Final onboarding evaluation"
+        }
+      ]
+    },
+    "onboarding_tasks": [
+      {
+        "task_id": "TASK_001",
+        "phase": "day_1",
+        "owner": "IT",
+        "task": "Create access to: CRM, Email, Slack, Sales Dashboard",
+        "purpose": "Ensure system readiness",
+        "status": "completed",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_002",
+        "phase": "day_1",
+        "owner": "Manager",
+        "task": "Meet manager and buddy",
+        "purpose": "Onboarding step: Meet manager and buddy",
+        "status": "completed",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_003",
+        "phase": "day_1",
+        "owner": "IT",
+        "task": "Get access to CRM and sales tools",
+        "purpose": "Onboarding step: Get access to CRM and sales tools",
+        "status": "completed",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_004",
+        "phase": "day_1",
+        "owner": "New Hire",
+        "task": "Review sales process",
+        "purpose": "Onboarding step: Review sales process",
+        "status": "pending",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_005",
+        "phase": "week_1",
+        "owner": "Buddy",
+        "task": "Shadow one client call",
+        "purpose": "Onboarding step: Shadow one client call",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_006",
+        "phase": "week_1",
+        "owner": "New Hire",
+        "task": "Review active pipeline",
+        "purpose": "Onboarding step: Review active pipeline",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_007",
+        "phase": "week_1",
+        "owner": "New Hire",
+        "task": "Prepare first account summary",
+        "purpose": "Onboarding step: Prepare first account summary",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_008",
+        "phase": "day_30",
+        "owner": "New Hire",
+        "task": "Manage first low-risk client interaction",
+        "purpose": "Onboarding step: Manage first low-risk client interaction",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_009",
+        "phase": "day_30",
+        "owner": "Manager",
+        "task": "Run 30-day onboarding check-in",
+        "purpose": "Assess progress",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_010",
+        "phase": "day_60",
+        "owner": "New Hire",
+        "task": "Own a small sales opportunity",
+        "purpose": "Onboarding step: Own a small sales opportunity",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_011",
+        "phase": "day_60",
+        "owner": "Manager",
+        "task": "Run 60-day progress review",
+        "purpose": "Assess autonomy",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_012",
+        "phase": "day_90",
+        "owner": "New Hire",
+        "task": "Independently manage a defined account segment",
+        "purpose": "Onboarding step: Independently manage a defined account segment",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_013",
+        "phase": "day_90",
+        "owner": "Manager",
+        "task": "Run 90-day onboarding review",
+        "purpose": "Final onboarding evaluation",
+        "status": "pending",
+        "priority": "medium"
+      }
+    ],
+    "friction_report": {
+      "friction_count": 1,
+      "frictions": [
+        {
+          "type": "critical_tasks_pending",
+          "severity": "high",
+          "message": "1 high-priority Day 1 tasks are still pending."
+        }
+      ]
+    },
+    "progress_summary": {
+      "total_tasks": 13,
+      "completed_tasks": 3,
+      "pending_tasks": 10,
+      "completion_rate": 23.08,
+      "overall_status": "at_risk",
+      "design_risk_count": 0,
+      "execution_risk_count": 1,
+      "key_risks": [
+        {
+          "type": "critical_tasks_pending",
+          "severity": "high",
+          "message": "1 high-priority Day 1 tasks are still pending."
+        }
+      ],
+      "all_frictions": [
+        {
+          "type": "critical_tasks_pending",
+          "severity": "high",
+          "message": "1 high-priority Day 1 tasks are still pending."
+        }
+      ],
+      "recommended_next_action": "Resolve high-priority execution tasks before onboarding starts."
+    }
+  },
+  {
+    "employee_id": "3430",
+    "name": "Michael Riordan",
+    "role": "Area Sales Manager",
+    "department": "Sales",
+    "manager": "Rebekah Wright",
+    "employee_type": "Contract",
+    "seniority": "senior",
+    "work_mode": "hybrid",
+    "profile_analysis": {
+      "employee_name": "Michael Riordan",
+      "role": "Area Sales Manager",
+      "department": "Sales",
+      "identified_needs": [
+        "Hybrid work expectations",
+        "Office coordination"
+      ],
+      "template_used": false
+    },
+    "onboarding_journey": {
+      "day_1": [
+        {
+          "owner": "IT",
+          "task": "Create access to: CRM, Email, Slack, Sales Dashboard",
+          "purpose": "Ensure system readiness"
+        },
+        {
+          "owner": "Manager",
+          "task": "Meet manager and buddy",
+          "purpose": "Onboarding step: Meet manager and buddy"
+        },
+        {
+          "owner": "IT",
+          "task": "Get access to CRM and sales tools",
+          "purpose": "Onboarding step: Get access to CRM and sales tools"
+        },
+        {
+          "owner": "New Hire",
+          "task": "Review sales process",
+          "purpose": "Onboarding step: Review sales process"
+        }
+      ],
+      "week_1": [
+        {
+          "owner": "Buddy",
+          "task": "Shadow one client call",
+          "purpose": "Onboarding step: Shadow one client call"
+        },
+        {
+          "owner": "New Hire",
+          "task": "Review active pipeline",
+          "purpose": "Onboarding step: Review active pipeline"
+        },
+        {
+          "owner": "New Hire",
+          "task": "Prepare first account summary",
+          "purpose": "Onboarding step: Prepare first account summary"
+        }
+      ],
+      "day_30": [
+        {
+          "owner": "New Hire",
+          "task": "Manage first low-risk client interaction",
+          "purpose": "Onboarding step: Manage first low-risk client interaction"
+        },
+        {
+          "owner": "Manager",
+          "task": "Run 30-day onboarding check-in",
+          "purpose": "Assess progress"
+        }
+      ],
+      "day_60": [
+        {
+          "owner": "New Hire",
+          "task": "Own a small sales opportunity",
+          "purpose": "Onboarding step: Own a small sales opportunity"
+        },
+        {
+          "owner": "Manager",
+          "task": "Run 60-day progress review",
+          "purpose": "Assess autonomy"
+        }
+      ],
+      "day_90": [
+        {
+          "owner": "New Hire",
+          "task": "Independently manage a defined account segment",
+          "purpose": "Onboarding step: Independently manage a defined account segment"
+        },
+        {
+          "owner": "Manager",
+          "task": "Run 90-day onboarding review",
+          "purpose": "Final onboarding evaluation"
+        }
+      ]
+    },
+    "onboarding_tasks": [
+      {
+        "task_id": "TASK_001",
+        "phase": "day_1",
+        "owner": "IT",
+        "task": "Create access to: CRM, Email, Slack, Sales Dashboard",
+        "purpose": "Ensure system readiness",
+        "status": "completed",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_002",
+        "phase": "day_1",
+        "owner": "Manager",
+        "task": "Meet manager and buddy",
+        "purpose": "Onboarding step: Meet manager and buddy",
+        "status": "completed",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_003",
+        "phase": "day_1",
+        "owner": "IT",
+        "task": "Get access to CRM and sales tools",
+        "purpose": "Onboarding step: Get access to CRM and sales tools",
+        "status": "completed",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_004",
+        "phase": "day_1",
+        "owner": "New Hire",
+        "task": "Review sales process",
+        "purpose": "Onboarding step: Review sales process",
+        "status": "pending",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_005",
+        "phase": "week_1",
+        "owner": "Buddy",
+        "task": "Shadow one client call",
+        "purpose": "Onboarding step: Shadow one client call",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_006",
+        "phase": "week_1",
+        "owner": "New Hire",
+        "task": "Review active pipeline",
+        "purpose": "Onboarding step: Review active pipeline",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_007",
+        "phase": "week_1",
+        "owner": "New Hire",
+        "task": "Prepare first account summary",
+        "purpose": "Onboarding step: Prepare first account summary",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_008",
+        "phase": "day_30",
+        "owner": "New Hire",
+        "task": "Manage first low-risk client interaction",
+        "purpose": "Onboarding step: Manage first low-risk client interaction",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_009",
+        "phase": "day_30",
+        "owner": "Manager",
+        "task": "Run 30-day onboarding check-in",
+        "purpose": "Assess progress",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_010",
+        "phase": "day_60",
+        "owner": "New Hire",
+        "task": "Own a small sales opportunity",
+        "purpose": "Onboarding step: Own a small sales opportunity",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_011",
+        "phase": "day_60",
+        "owner": "Manager",
+        "task": "Run 60-day progress review",
+        "purpose": "Assess autonomy",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_012",
+        "phase": "day_90",
+        "owner": "New Hire",
+        "task": "Independently manage a defined account segment",
+        "purpose": "Onboarding step: Independently manage a defined account segment",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_013",
+        "phase": "day_90",
+        "owner": "Manager",
+        "task": "Run 90-day onboarding review",
+        "purpose": "Final onboarding evaluation",
+        "status": "pending",
+        "priority": "medium"
+      }
+    ],
+    "friction_report": {
+      "friction_count": 1,
+      "frictions": [
+        {
+          "type": "critical_tasks_pending",
+          "severity": "high",
+          "message": "1 high-priority Day 1 tasks are still pending."
+        }
+      ]
+    },
+    "progress_summary": {
+      "total_tasks": 13,
+      "completed_tasks": 3,
+      "pending_tasks": 10,
+      "completion_rate": 23.08,
+      "overall_status": "at_risk",
+      "design_risk_count": 0,
+      "execution_risk_count": 1,
+      "key_risks": [
+        {
+          "type": "critical_tasks_pending",
+          "severity": "high",
+          "message": "1 high-priority Day 1 tasks are still pending."
+        }
+      ],
+      "all_frictions": [
+        {
+          "type": "critical_tasks_pending",
+          "severity": "high",
+          "message": "1 high-priority Day 1 tasks are still pending."
+        }
+      ],
+      "recommended_next_action": "Resolve high-priority execution tasks before onboarding starts."
+    }
+  },
+  {
+    "employee_id": "3431",
+    "name": "Jasmine Onque",
+    "role": "Area Sales Manager",
+    "department": "Sales",
+    "manager": "Jason Kim",
+    "employee_type": "Contract",
+    "seniority": "senior",
+    "work_mode": "hybrid",
+    "profile_analysis": {
+      "employee_name": "Jasmine Onque",
+      "role": "Area Sales Manager",
+      "department": "Sales",
+      "identified_needs": [
+        "Hybrid work expectations",
+        "Office coordination"
+      ],
+      "template_used": false
+    },
+    "onboarding_journey": {
+      "day_1": [
+        {
+          "owner": "IT",
+          "task": "Create access to: CRM, Email, Slack, Sales Dashboard",
+          "purpose": "Ensure system readiness"
+        },
+        {
+          "owner": "Manager",
+          "task": "Meet manager and buddy",
+          "purpose": "Onboarding step: Meet manager and buddy"
+        },
+        {
+          "owner": "IT",
+          "task": "Get access to CRM and sales tools",
+          "purpose": "Onboarding step: Get access to CRM and sales tools"
+        },
+        {
+          "owner": "New Hire",
+          "task": "Review sales process",
+          "purpose": "Onboarding step: Review sales process"
+        }
+      ],
+      "week_1": [
+        {
+          "owner": "Buddy",
+          "task": "Shadow one client call",
+          "purpose": "Onboarding step: Shadow one client call"
+        },
+        {
+          "owner": "New Hire",
+          "task": "Review active pipeline",
+          "purpose": "Onboarding step: Review active pipeline"
+        },
+        {
+          "owner": "New Hire",
+          "task": "Prepare first account summary",
+          "purpose": "Onboarding step: Prepare first account summary"
+        }
+      ],
+      "day_30": [
+        {
+          "owner": "New Hire",
+          "task": "Manage first low-risk client interaction",
+          "purpose": "Onboarding step: Manage first low-risk client interaction"
+        },
+        {
+          "owner": "Manager",
+          "task": "Run 30-day onboarding check-in",
+          "purpose": "Assess progress"
+        }
+      ],
+      "day_60": [
+        {
+          "owner": "New Hire",
+          "task": "Own a small sales opportunity",
+          "purpose": "Onboarding step: Own a small sales opportunity"
+        },
+        {
+          "owner": "Manager",
+          "task": "Run 60-day progress review",
+          "purpose": "Assess autonomy"
+        }
+      ],
+      "day_90": [
+        {
+          "owner": "New Hire",
+          "task": "Independently manage a defined account segment",
+          "purpose": "Onboarding step: Independently manage a defined account segment"
+        },
+        {
+          "owner": "Manager",
+          "task": "Run 90-day onboarding review",
+          "purpose": "Final onboarding evaluation"
+        }
+      ]
+    },
+    "onboarding_tasks": [
+      {
+        "task_id": "TASK_001",
+        "phase": "day_1",
+        "owner": "IT",
+        "task": "Create access to: CRM, Email, Slack, Sales Dashboard",
+        "purpose": "Ensure system readiness",
+        "status": "completed",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_002",
+        "phase": "day_1",
+        "owner": "Manager",
+        "task": "Meet manager and buddy",
+        "purpose": "Onboarding step: Meet manager and buddy",
+        "status": "completed",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_003",
+        "phase": "day_1",
+        "owner": "IT",
+        "task": "Get access to CRM and sales tools",
+        "purpose": "Onboarding step: Get access to CRM and sales tools",
+        "status": "completed",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_004",
+        "phase": "day_1",
+        "owner": "New Hire",
+        "task": "Review sales process",
+        "purpose": "Onboarding step: Review sales process",
+        "status": "pending",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_005",
+        "phase": "week_1",
+        "owner": "Buddy",
+        "task": "Shadow one client call",
+        "purpose": "Onboarding step: Shadow one client call",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_006",
+        "phase": "week_1",
+        "owner": "New Hire",
+        "task": "Review active pipeline",
+        "purpose": "Onboarding step: Review active pipeline",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_007",
+        "phase": "week_1",
+        "owner": "New Hire",
+        "task": "Prepare first account summary",
+        "purpose": "Onboarding step: Prepare first account summary",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_008",
+        "phase": "day_30",
+        "owner": "New Hire",
+        "task": "Manage first low-risk client interaction",
+        "purpose": "Onboarding step: Manage first low-risk client interaction",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_009",
+        "phase": "day_30",
+        "owner": "Manager",
+        "task": "Run 30-day onboarding check-in",
+        "purpose": "Assess progress",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_010",
+        "phase": "day_60",
+        "owner": "New Hire",
+        "task": "Own a small sales opportunity",
+        "purpose": "Onboarding step: Own a small sales opportunity",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_011",
+        "phase": "day_60",
+        "owner": "Manager",
+        "task": "Run 60-day progress review",
+        "purpose": "Assess autonomy",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_012",
+        "phase": "day_90",
+        "owner": "New Hire",
+        "task": "Independently manage a defined account segment",
+        "purpose": "Onboarding step: Independently manage a defined account segment",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_013",
+        "phase": "day_90",
+        "owner": "Manager",
+        "task": "Run 90-day onboarding review",
+        "purpose": "Final onboarding evaluation",
+        "status": "pending",
+        "priority": "medium"
+      }
+    ],
+    "friction_report": {
+      "friction_count": 1,
+      "frictions": [
+        {
+          "type": "critical_tasks_pending",
+          "severity": "high",
+          "message": "1 high-priority Day 1 tasks are still pending."
+        }
+      ]
+    },
+    "progress_summary": {
+      "total_tasks": 13,
+      "completed_tasks": 3,
+      "pending_tasks": 10,
+      "completion_rate": 23.08,
+      "overall_status": "at_risk",
+      "design_risk_count": 0,
+      "execution_risk_count": 1,
+      "key_risks": [
+        {
+          "type": "critical_tasks_pending",
+          "severity": "high",
+          "message": "1 high-priority Day 1 tasks are still pending."
+        }
+      ],
+      "all_frictions": [
+        {
+          "type": "critical_tasks_pending",
+          "severity": "high",
+          "message": "1 high-priority Day 1 tasks are still pending."
+        }
+      ],
+      "recommended_next_action": "Resolve high-priority execution tasks before onboarding starts."
+    }
+  },
+  {
+    "employee_id": "3432",
+    "name": "Maruk Fraval",
+    "role": "Area Sales Manager",
+    "department": "Sales",
+    "manager": "Sheri Campos",
+    "employee_type": "Contract",
+    "seniority": "senior",
+    "work_mode": "hybrid",
+    "profile_analysis": {
+      "employee_name": "Maruk Fraval",
+      "role": "Area Sales Manager",
+      "department": "Sales",
+      "identified_needs": [
+        "Hybrid work expectations",
+        "Office coordination"
+      ],
+      "template_used": false
+    },
+    "onboarding_journey": {
+      "day_1": [
+        {
+          "owner": "IT",
+          "task": "Create access to: CRM, Email, Slack, Sales Dashboard",
+          "purpose": "Ensure system readiness"
+        },
+        {
+          "owner": "Manager",
+          "task": "Meet manager and buddy",
+          "purpose": "Onboarding step: Meet manager and buddy"
+        },
+        {
+          "owner": "IT",
+          "task": "Get access to CRM and sales tools",
+          "purpose": "Onboarding step: Get access to CRM and sales tools"
+        },
+        {
+          "owner": "New Hire",
+          "task": "Review sales process",
+          "purpose": "Onboarding step: Review sales process"
+        }
+      ],
+      "week_1": [
+        {
+          "owner": "Buddy",
+          "task": "Shadow one client call",
+          "purpose": "Onboarding step: Shadow one client call"
+        },
+        {
+          "owner": "New Hire",
+          "task": "Review active pipeline",
+          "purpose": "Onboarding step: Review active pipeline"
+        },
+        {
+          "owner": "New Hire",
+          "task": "Prepare first account summary",
+          "purpose": "Onboarding step: Prepare first account summary"
+        }
+      ],
+      "day_30": [
+        {
+          "owner": "New Hire",
+          "task": "Manage first low-risk client interaction",
+          "purpose": "Onboarding step: Manage first low-risk client interaction"
+        },
+        {
+          "owner": "Manager",
+          "task": "Run 30-day onboarding check-in",
+          "purpose": "Assess progress"
+        }
+      ],
+      "day_60": [
+        {
+          "owner": "New Hire",
+          "task": "Own a small sales opportunity",
+          "purpose": "Onboarding step: Own a small sales opportunity"
+        },
+        {
+          "owner": "Manager",
+          "task": "Run 60-day progress review",
+          "purpose": "Assess autonomy"
+        }
+      ],
+      "day_90": [
+        {
+          "owner": "New Hire",
+          "task": "Independently manage a defined account segment",
+          "purpose": "Onboarding step: Independently manage a defined account segment"
+        },
+        {
+          "owner": "Manager",
+          "task": "Run 90-day onboarding review",
+          "purpose": "Final onboarding evaluation"
+        }
+      ]
+    },
+    "onboarding_tasks": [
+      {
+        "task_id": "TASK_001",
+        "phase": "day_1",
+        "owner": "IT",
+        "task": "Create access to: CRM, Email, Slack, Sales Dashboard",
+        "purpose": "Ensure system readiness",
+        "status": "completed",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_002",
+        "phase": "day_1",
+        "owner": "Manager",
+        "task": "Meet manager and buddy",
+        "purpose": "Onboarding step: Meet manager and buddy",
+        "status": "completed",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_003",
+        "phase": "day_1",
+        "owner": "IT",
+        "task": "Get access to CRM and sales tools",
+        "purpose": "Onboarding step: Get access to CRM and sales tools",
+        "status": "completed",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_004",
+        "phase": "day_1",
+        "owner": "New Hire",
+        "task": "Review sales process",
+        "purpose": "Onboarding step: Review sales process",
+        "status": "pending",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_005",
+        "phase": "week_1",
+        "owner": "Buddy",
+        "task": "Shadow one client call",
+        "purpose": "Onboarding step: Shadow one client call",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_006",
+        "phase": "week_1",
+        "owner": "New Hire",
+        "task": "Review active pipeline",
+        "purpose": "Onboarding step: Review active pipeline",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_007",
+        "phase": "week_1",
+        "owner": "New Hire",
+        "task": "Prepare first account summary",
+        "purpose": "Onboarding step: Prepare first account summary",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_008",
+        "phase": "day_30",
+        "owner": "New Hire",
+        "task": "Manage first low-risk client interaction",
+        "purpose": "Onboarding step: Manage first low-risk client interaction",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_009",
+        "phase": "day_30",
+        "owner": "Manager",
+        "task": "Run 30-day onboarding check-in",
+        "purpose": "Assess progress",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_010",
+        "phase": "day_60",
+        "owner": "New Hire",
+        "task": "Own a small sales opportunity",
+        "purpose": "Onboarding step: Own a small sales opportunity",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_011",
+        "phase": "day_60",
+        "owner": "Manager",
+        "task": "Run 60-day progress review",
+        "purpose": "Assess autonomy",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_012",
+        "phase": "day_90",
+        "owner": "New Hire",
+        "task": "Independently manage a defined account segment",
+        "purpose": "Onboarding step: Independently manage a defined account segment",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_013",
+        "phase": "day_90",
+        "owner": "Manager",
+        "task": "Run 90-day onboarding review",
+        "purpose": "Final onboarding evaluation",
+        "status": "pending",
+        "priority": "medium"
+      }
+    ],
+    "friction_report": {
+      "friction_count": 1,
+      "frictions": [
+        {
+          "type": "critical_tasks_pending",
+          "severity": "high",
+          "message": "1 high-priority Day 1 tasks are still pending."
+        }
+      ]
+    },
+    "progress_summary": {
+      "total_tasks": 13,
+      "completed_tasks": 3,
+      "pending_tasks": 10,
+      "completion_rate": 23.08,
+      "overall_status": "at_risk",
+      "design_risk_count": 0,
+      "execution_risk_count": 1,
+      "key_risks": [
+        {
+          "type": "critical_tasks_pending",
+          "severity": "high",
+          "message": "1 high-priority Day 1 tasks are still pending."
+        }
+      ],
+      "all_frictions": [
+        {
+          "type": "critical_tasks_pending",
+          "severity": "high",
+          "message": "1 high-priority Day 1 tasks are still pending."
+        }
+      ],
+      "recommended_next_action": "Resolve high-priority execution tasks before onboarding starts."
+    }
+  },
+  {
+    "employee_id": "3433",
+    "name": "Latia Costa",
+    "role": "Area Sales Manager",
+    "department": "Sales",
+    "manager": "Jacob Braun",
+    "employee_type": "Full-Time",
+    "seniority": "senior",
+    "work_mode": "hybrid",
+    "profile_analysis": {
+      "employee_name": "Latia Costa",
+      "role": "Area Sales Manager",
+      "department": "Sales",
+      "identified_needs": [
+        "Hybrid work expectations",
+        "Office coordination"
+      ],
+      "template_used": false
+    },
+    "onboarding_journey": {
+      "day_1": [
+        {
+          "owner": "IT",
+          "task": "Create access to: CRM, Email, Slack, Sales Dashboard",
+          "purpose": "Ensure system readiness"
+        },
+        {
+          "owner": "Manager",
+          "task": "Meet manager and buddy",
+          "purpose": "Onboarding step: Meet manager and buddy"
+        },
+        {
+          "owner": "IT",
+          "task": "Get access to CRM and sales tools",
+          "purpose": "Onboarding step: Get access to CRM and sales tools"
+        },
+        {
+          "owner": "New Hire",
+          "task": "Review sales process",
+          "purpose": "Onboarding step: Review sales process"
+        }
+      ],
+      "week_1": [
+        {
+          "owner": "Buddy",
+          "task": "Shadow one client call",
+          "purpose": "Onboarding step: Shadow one client call"
+        },
+        {
+          "owner": "New Hire",
+          "task": "Review active pipeline",
+          "purpose": "Onboarding step: Review active pipeline"
+        },
+        {
+          "owner": "New Hire",
+          "task": "Prepare first account summary",
+          "purpose": "Onboarding step: Prepare first account summary"
+        }
+      ],
+      "day_30": [
+        {
+          "owner": "New Hire",
+          "task": "Manage first low-risk client interaction",
+          "purpose": "Onboarding step: Manage first low-risk client interaction"
+        },
+        {
+          "owner": "Manager",
+          "task": "Run 30-day onboarding check-in",
+          "purpose": "Assess progress"
+        }
+      ],
+      "day_60": [
+        {
+          "owner": "New Hire",
+          "task": "Own a small sales opportunity",
+          "purpose": "Onboarding step: Own a small sales opportunity"
+        },
+        {
+          "owner": "Manager",
+          "task": "Run 60-day progress review",
+          "purpose": "Assess autonomy"
+        }
+      ],
+      "day_90": [
+        {
+          "owner": "New Hire",
+          "task": "Independently manage a defined account segment",
+          "purpose": "Onboarding step: Independently manage a defined account segment"
+        },
+        {
+          "owner": "Manager",
+          "task": "Run 90-day onboarding review",
+          "purpose": "Final onboarding evaluation"
+        }
+      ]
+    },
+    "onboarding_tasks": [
+      {
+        "task_id": "TASK_001",
+        "phase": "day_1",
+        "owner": "IT",
+        "task": "Create access to: CRM, Email, Slack, Sales Dashboard",
+        "purpose": "Ensure system readiness",
+        "status": "completed",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_002",
+        "phase": "day_1",
+        "owner": "Manager",
+        "task": "Meet manager and buddy",
+        "purpose": "Onboarding step: Meet manager and buddy",
+        "status": "completed",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_003",
+        "phase": "day_1",
+        "owner": "IT",
+        "task": "Get access to CRM and sales tools",
+        "purpose": "Onboarding step: Get access to CRM and sales tools",
+        "status": "completed",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_004",
+        "phase": "day_1",
+        "owner": "New Hire",
+        "task": "Review sales process",
+        "purpose": "Onboarding step: Review sales process",
+        "status": "pending",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_005",
+        "phase": "week_1",
+        "owner": "Buddy",
+        "task": "Shadow one client call",
+        "purpose": "Onboarding step: Shadow one client call",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_006",
+        "phase": "week_1",
+        "owner": "New Hire",
+        "task": "Review active pipeline",
+        "purpose": "Onboarding step: Review active pipeline",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_007",
+        "phase": "week_1",
+        "owner": "New Hire",
+        "task": "Prepare first account summary",
+        "purpose": "Onboarding step: Prepare first account summary",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_008",
+        "phase": "day_30",
+        "owner": "New Hire",
+        "task": "Manage first low-risk client interaction",
+        "purpose": "Onboarding step: Manage first low-risk client interaction",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_009",
+        "phase": "day_30",
+        "owner": "Manager",
+        "task": "Run 30-day onboarding check-in",
+        "purpose": "Assess progress",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_010",
+        "phase": "day_60",
+        "owner": "New Hire",
+        "task": "Own a small sales opportunity",
+        "purpose": "Onboarding step: Own a small sales opportunity",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_011",
+        "phase": "day_60",
+        "owner": "Manager",
+        "task": "Run 60-day progress review",
+        "purpose": "Assess autonomy",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_012",
+        "phase": "day_90",
+        "owner": "New Hire",
+        "task": "Independently manage a defined account segment",
+        "purpose": "Onboarding step: Independently manage a defined account segment",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_013",
+        "phase": "day_90",
+        "owner": "Manager",
+        "task": "Run 90-day onboarding review",
+        "purpose": "Final onboarding evaluation",
+        "status": "pending",
+        "priority": "medium"
+      }
+    ],
+    "friction_report": {
+      "friction_count": 1,
+      "frictions": [
+        {
+          "type": "critical_tasks_pending",
+          "severity": "high",
+          "message": "1 high-priority Day 1 tasks are still pending."
+        }
+      ]
+    },
+    "progress_summary": {
+      "total_tasks": 13,
+      "completed_tasks": 3,
+      "pending_tasks": 10,
+      "completion_rate": 23.08,
+      "overall_status": "at_risk",
+      "design_risk_count": 0,
+      "execution_risk_count": 1,
+      "key_risks": [
+        {
+          "type": "critical_tasks_pending",
+          "severity": "high",
+          "message": "1 high-priority Day 1 tasks are still pending."
+        }
+      ],
+      "all_frictions": [
+        {
+          "type": "critical_tasks_pending",
+          "severity": "high",
+          "message": "1 high-priority Day 1 tasks are still pending."
+        }
+      ],
+      "recommended_next_action": "Resolve high-priority execution tasks before onboarding starts."
+    }
+  },
+  {
+    "employee_id": "3434",
+    "name": "Sharlene Terry",
+    "role": "Area Sales Manager",
+    "department": "Sales",
+    "manager": "Tracy Marquez",
+    "employee_type": "Contract",
+    "seniority": "senior",
+    "work_mode": "hybrid",
+    "profile_analysis": {
+      "employee_name": "Sharlene Terry",
+      "role": "Area Sales Manager",
+      "department": "Sales",
+      "identified_needs": [
+        "Hybrid work expectations",
+        "Office coordination"
+      ],
+      "template_used": false
+    },
+    "onboarding_journey": {
+      "day_1": [
+        {
+          "owner": "IT",
+          "task": "Create access to: CRM, Email, Slack, Sales Dashboard",
+          "purpose": "Ensure system readiness"
+        },
+        {
+          "owner": "Manager",
+          "task": "Meet manager and buddy",
+          "purpose": "Onboarding step: Meet manager and buddy"
+        },
+        {
+          "owner": "IT",
+          "task": "Get access to CRM and sales tools",
+          "purpose": "Onboarding step: Get access to CRM and sales tools"
+        },
+        {
+          "owner": "New Hire",
+          "task": "Review sales process",
+          "purpose": "Onboarding step: Review sales process"
+        }
+      ],
+      "week_1": [
+        {
+          "owner": "Buddy",
+          "task": "Shadow one client call",
+          "purpose": "Onboarding step: Shadow one client call"
+        },
+        {
+          "owner": "New Hire",
+          "task": "Review active pipeline",
+          "purpose": "Onboarding step: Review active pipeline"
+        },
+        {
+          "owner": "New Hire",
+          "task": "Prepare first account summary",
+          "purpose": "Onboarding step: Prepare first account summary"
+        }
+      ],
+      "day_30": [
+        {
+          "owner": "New Hire",
+          "task": "Manage first low-risk client interaction",
+          "purpose": "Onboarding step: Manage first low-risk client interaction"
+        },
+        {
+          "owner": "Manager",
+          "task": "Run 30-day onboarding check-in",
+          "purpose": "Assess progress"
+        }
+      ],
+      "day_60": [
+        {
+          "owner": "New Hire",
+          "task": "Own a small sales opportunity",
+          "purpose": "Onboarding step: Own a small sales opportunity"
+        },
+        {
+          "owner": "Manager",
+          "task": "Run 60-day progress review",
+          "purpose": "Assess autonomy"
+        }
+      ],
+      "day_90": [
+        {
+          "owner": "New Hire",
+          "task": "Independently manage a defined account segment",
+          "purpose": "Onboarding step: Independently manage a defined account segment"
+        },
+        {
+          "owner": "Manager",
+          "task": "Run 90-day onboarding review",
+          "purpose": "Final onboarding evaluation"
+        }
+      ]
+    },
+    "onboarding_tasks": [
+      {
+        "task_id": "TASK_001",
+        "phase": "day_1",
+        "owner": "IT",
+        "task": "Create access to: CRM, Email, Slack, Sales Dashboard",
+        "purpose": "Ensure system readiness",
+        "status": "completed",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_002",
+        "phase": "day_1",
+        "owner": "Manager",
+        "task": "Meet manager and buddy",
+        "purpose": "Onboarding step: Meet manager and buddy",
+        "status": "completed",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_003",
+        "phase": "day_1",
+        "owner": "IT",
+        "task": "Get access to CRM and sales tools",
+        "purpose": "Onboarding step: Get access to CRM and sales tools",
+        "status": "completed",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_004",
+        "phase": "day_1",
+        "owner": "New Hire",
+        "task": "Review sales process",
+        "purpose": "Onboarding step: Review sales process",
+        "status": "pending",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_005",
+        "phase": "week_1",
+        "owner": "Buddy",
+        "task": "Shadow one client call",
+        "purpose": "Onboarding step: Shadow one client call",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_006",
+        "phase": "week_1",
+        "owner": "New Hire",
+        "task": "Review active pipeline",
+        "purpose": "Onboarding step: Review active pipeline",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_007",
+        "phase": "week_1",
+        "owner": "New Hire",
+        "task": "Prepare first account summary",
+        "purpose": "Onboarding step: Prepare first account summary",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_008",
+        "phase": "day_30",
+        "owner": "New Hire",
+        "task": "Manage first low-risk client interaction",
+        "purpose": "Onboarding step: Manage first low-risk client interaction",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_009",
+        "phase": "day_30",
+        "owner": "Manager",
+        "task": "Run 30-day onboarding check-in",
+        "purpose": "Assess progress",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_010",
+        "phase": "day_60",
+        "owner": "New Hire",
+        "task": "Own a small sales opportunity",
+        "purpose": "Onboarding step: Own a small sales opportunity",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_011",
+        "phase": "day_60",
+        "owner": "Manager",
+        "task": "Run 60-day progress review",
+        "purpose": "Assess autonomy",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_012",
+        "phase": "day_90",
+        "owner": "New Hire",
+        "task": "Independently manage a defined account segment",
+        "purpose": "Onboarding step: Independently manage a defined account segment",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_013",
+        "phase": "day_90",
+        "owner": "Manager",
+        "task": "Run 90-day onboarding review",
+        "purpose": "Final onboarding evaluation",
+        "status": "pending",
+        "priority": "medium"
+      }
+    ],
+    "friction_report": {
+      "friction_count": 1,
+      "frictions": [
+        {
+          "type": "critical_tasks_pending",
+          "severity": "high",
+          "message": "1 high-priority Day 1 tasks are still pending."
+        }
+      ]
+    },
+    "progress_summary": {
+      "total_tasks": 13,
+      "completed_tasks": 3,
+      "pending_tasks": 10,
+      "completion_rate": 23.08,
+      "overall_status": "at_risk",
+      "design_risk_count": 0,
+      "execution_risk_count": 1,
+      "key_risks": [
+        {
+          "type": "critical_tasks_pending",
+          "severity": "high",
+          "message": "1 high-priority Day 1 tasks are still pending."
+        }
+      ],
+      "all_frictions": [
+        {
+          "type": "critical_tasks_pending",
+          "severity": "high",
+          "message": "1 high-priority Day 1 tasks are still pending."
+        }
+      ],
+      "recommended_next_action": "Resolve high-priority execution tasks before onboarding starts."
+    }
+  },
+  {
+    "employee_id": "3435",
+    "name": "Jac McKinzie",
+    "role": "Area Sales Manager",
+    "department": "Sales",
+    "manager": "Sharon Becker",
+    "employee_type": "Contract",
+    "seniority": "senior",
+    "work_mode": "hybrid",
+    "profile_analysis": {
+      "employee_name": "Jac McKinzie",
+      "role": "Area Sales Manager",
+      "department": "Sales",
+      "identified_needs": [
+        "Hybrid work expectations",
+        "Office coordination"
+      ],
+      "template_used": false
+    },
+    "onboarding_journey": {
+      "day_1": [
+        {
+          "owner": "IT",
+          "task": "Create access to: CRM, Email, Slack, Sales Dashboard",
+          "purpose": "Ensure system readiness"
+        },
+        {
+          "owner": "Manager",
+          "task": "Meet manager and buddy",
+          "purpose": "Onboarding step: Meet manager and buddy"
+        },
+        {
+          "owner": "IT",
+          "task": "Get access to CRM and sales tools",
+          "purpose": "Onboarding step: Get access to CRM and sales tools"
+        },
+        {
+          "owner": "New Hire",
+          "task": "Review sales process",
+          "purpose": "Onboarding step: Review sales process"
+        }
+      ],
+      "week_1": [
+        {
+          "owner": "Buddy",
+          "task": "Shadow one client call",
+          "purpose": "Onboarding step: Shadow one client call"
+        },
+        {
+          "owner": "New Hire",
+          "task": "Review active pipeline",
+          "purpose": "Onboarding step: Review active pipeline"
+        },
+        {
+          "owner": "New Hire",
+          "task": "Prepare first account summary",
+          "purpose": "Onboarding step: Prepare first account summary"
+        }
+      ],
+      "day_30": [
+        {
+          "owner": "New Hire",
+          "task": "Manage first low-risk client interaction",
+          "purpose": "Onboarding step: Manage first low-risk client interaction"
+        },
+        {
+          "owner": "Manager",
+          "task": "Run 30-day onboarding check-in",
+          "purpose": "Assess progress"
+        }
+      ],
+      "day_60": [
+        {
+          "owner": "New Hire",
+          "task": "Own a small sales opportunity",
+          "purpose": "Onboarding step: Own a small sales opportunity"
+        },
+        {
+          "owner": "Manager",
+          "task": "Run 60-day progress review",
+          "purpose": "Assess autonomy"
+        }
+      ],
+      "day_90": [
+        {
+          "owner": "New Hire",
+          "task": "Independently manage a defined account segment",
+          "purpose": "Onboarding step: Independently manage a defined account segment"
+        },
+        {
+          "owner": "Manager",
+          "task": "Run 90-day onboarding review",
+          "purpose": "Final onboarding evaluation"
+        }
+      ]
+    },
+    "onboarding_tasks": [
+      {
+        "task_id": "TASK_001",
+        "phase": "day_1",
+        "owner": "IT",
+        "task": "Create access to: CRM, Email, Slack, Sales Dashboard",
+        "purpose": "Ensure system readiness",
+        "status": "completed",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_002",
+        "phase": "day_1",
+        "owner": "Manager",
+        "task": "Meet manager and buddy",
+        "purpose": "Onboarding step: Meet manager and buddy",
+        "status": "completed",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_003",
+        "phase": "day_1",
+        "owner": "IT",
+        "task": "Get access to CRM and sales tools",
+        "purpose": "Onboarding step: Get access to CRM and sales tools",
+        "status": "completed",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_004",
+        "phase": "day_1",
+        "owner": "New Hire",
+        "task": "Review sales process",
+        "purpose": "Onboarding step: Review sales process",
+        "status": "pending",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_005",
+        "phase": "week_1",
+        "owner": "Buddy",
+        "task": "Shadow one client call",
+        "purpose": "Onboarding step: Shadow one client call",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_006",
+        "phase": "week_1",
+        "owner": "New Hire",
+        "task": "Review active pipeline",
+        "purpose": "Onboarding step: Review active pipeline",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_007",
+        "phase": "week_1",
+        "owner": "New Hire",
+        "task": "Prepare first account summary",
+        "purpose": "Onboarding step: Prepare first account summary",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_008",
+        "phase": "day_30",
+        "owner": "New Hire",
+        "task": "Manage first low-risk client interaction",
+        "purpose": "Onboarding step: Manage first low-risk client interaction",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_009",
+        "phase": "day_30",
+        "owner": "Manager",
+        "task": "Run 30-day onboarding check-in",
+        "purpose": "Assess progress",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_010",
+        "phase": "day_60",
+        "owner": "New Hire",
+        "task": "Own a small sales opportunity",
+        "purpose": "Onboarding step: Own a small sales opportunity",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_011",
+        "phase": "day_60",
+        "owner": "Manager",
+        "task": "Run 60-day progress review",
+        "purpose": "Assess autonomy",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_012",
+        "phase": "day_90",
+        "owner": "New Hire",
+        "task": "Independently manage a defined account segment",
+        "purpose": "Onboarding step: Independently manage a defined account segment",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_013",
+        "phase": "day_90",
+        "owner": "Manager",
+        "task": "Run 90-day onboarding review",
+        "purpose": "Final onboarding evaluation",
+        "status": "pending",
+        "priority": "medium"
+      }
+    ],
+    "friction_report": {
+      "friction_count": 1,
+      "frictions": [
+        {
+          "type": "critical_tasks_pending",
+          "severity": "high",
+          "message": "1 high-priority Day 1 tasks are still pending."
+        }
+      ]
+    },
+    "progress_summary": {
+      "total_tasks": 13,
+      "completed_tasks": 3,
+      "pending_tasks": 10,
+      "completion_rate": 23.08,
+      "overall_status": "at_risk",
+      "design_risk_count": 0,
+      "execution_risk_count": 1,
+      "key_risks": [
+        {
+          "type": "critical_tasks_pending",
+          "severity": "high",
+          "message": "1 high-priority Day 1 tasks are still pending."
+        }
+      ],
+      "all_frictions": [
+        {
+          "type": "critical_tasks_pending",
+          "severity": "high",
+          "message": "1 high-priority Day 1 tasks are still pending."
+        }
+      ],
+      "recommended_next_action": "Resolve high-priority execution tasks before onboarding starts."
+    }
+  },
+  {
+    "employee_id": "3436",
+    "name": "Joseph Martins",
+    "role": "Area Sales Manager",
+    "department": "Sales",
+    "manager": "George Jenkins",
+    "employee_type": "Part-Time",
+    "seniority": "senior",
+    "work_mode": "hybrid",
+    "profile_analysis": {
+      "employee_name": "Joseph Martins",
+      "role": "Area Sales Manager",
+      "department": "Sales",
+      "identified_needs": [
+        "Hybrid work expectations",
+        "Office coordination"
+      ],
+      "template_used": false
+    },
+    "onboarding_journey": {
+      "day_1": [
+        {
+          "owner": "IT",
+          "task": "Create access to: CRM, Email, Slack, Sales Dashboard",
+          "purpose": "Ensure system readiness"
+        },
+        {
+          "owner": "Manager",
+          "task": "Meet manager and buddy",
+          "purpose": "Onboarding step: Meet manager and buddy"
+        },
+        {
+          "owner": "IT",
+          "task": "Get access to CRM and sales tools",
+          "purpose": "Onboarding step: Get access to CRM and sales tools"
+        },
+        {
+          "owner": "New Hire",
+          "task": "Review sales process",
+          "purpose": "Onboarding step: Review sales process"
+        }
+      ],
+      "week_1": [
+        {
+          "owner": "Buddy",
+          "task": "Shadow one client call",
+          "purpose": "Onboarding step: Shadow one client call"
+        },
+        {
+          "owner": "New Hire",
+          "task": "Review active pipeline",
+          "purpose": "Onboarding step: Review active pipeline"
+        },
+        {
+          "owner": "New Hire",
+          "task": "Prepare first account summary",
+          "purpose": "Onboarding step: Prepare first account summary"
+        }
+      ],
+      "day_30": [
+        {
+          "owner": "New Hire",
+          "task": "Manage first low-risk client interaction",
+          "purpose": "Onboarding step: Manage first low-risk client interaction"
+        },
+        {
+          "owner": "Manager",
+          "task": "Run 30-day onboarding check-in",
+          "purpose": "Assess progress"
+        }
+      ],
+      "day_60": [
+        {
+          "owner": "New Hire",
+          "task": "Own a small sales opportunity",
+          "purpose": "Onboarding step: Own a small sales opportunity"
+        },
+        {
+          "owner": "Manager",
+          "task": "Run 60-day progress review",
+          "purpose": "Assess autonomy"
+        }
+      ],
+      "day_90": [
+        {
+          "owner": "New Hire",
+          "task": "Independently manage a defined account segment",
+          "purpose": "Onboarding step: Independently manage a defined account segment"
+        },
+        {
+          "owner": "Manager",
+          "task": "Run 90-day onboarding review",
+          "purpose": "Final onboarding evaluation"
+        }
+      ]
+    },
+    "onboarding_tasks": [
+      {
+        "task_id": "TASK_001",
+        "phase": "day_1",
+        "owner": "IT",
+        "task": "Create access to: CRM, Email, Slack, Sales Dashboard",
+        "purpose": "Ensure system readiness",
+        "status": "completed",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_002",
+        "phase": "day_1",
+        "owner": "Manager",
+        "task": "Meet manager and buddy",
+        "purpose": "Onboarding step: Meet manager and buddy",
+        "status": "completed",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_003",
+        "phase": "day_1",
+        "owner": "IT",
+        "task": "Get access to CRM and sales tools",
+        "purpose": "Onboarding step: Get access to CRM and sales tools",
+        "status": "completed",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_004",
+        "phase": "day_1",
+        "owner": "New Hire",
+        "task": "Review sales process",
+        "purpose": "Onboarding step: Review sales process",
+        "status": "pending",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_005",
+        "phase": "week_1",
+        "owner": "Buddy",
+        "task": "Shadow one client call",
+        "purpose": "Onboarding step: Shadow one client call",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_006",
+        "phase": "week_1",
+        "owner": "New Hire",
+        "task": "Review active pipeline",
+        "purpose": "Onboarding step: Review active pipeline",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_007",
+        "phase": "week_1",
+        "owner": "New Hire",
+        "task": "Prepare first account summary",
+        "purpose": "Onboarding step: Prepare first account summary",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_008",
+        "phase": "day_30",
+        "owner": "New Hire",
+        "task": "Manage first low-risk client interaction",
+        "purpose": "Onboarding step: Manage first low-risk client interaction",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_009",
+        "phase": "day_30",
+        "owner": "Manager",
+        "task": "Run 30-day onboarding check-in",
+        "purpose": "Assess progress",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_010",
+        "phase": "day_60",
+        "owner": "New Hire",
+        "task": "Own a small sales opportunity",
+        "purpose": "Onboarding step: Own a small sales opportunity",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_011",
+        "phase": "day_60",
+        "owner": "Manager",
+        "task": "Run 60-day progress review",
+        "purpose": "Assess autonomy",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_012",
+        "phase": "day_90",
+        "owner": "New Hire",
+        "task": "Independently manage a defined account segment",
+        "purpose": "Onboarding step: Independently manage a defined account segment",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_013",
+        "phase": "day_90",
+        "owner": "Manager",
+        "task": "Run 90-day onboarding review",
+        "purpose": "Final onboarding evaluation",
+        "status": "pending",
+        "priority": "medium"
+      }
+    ],
+    "friction_report": {
+      "friction_count": 1,
+      "frictions": [
+        {
+          "type": "critical_tasks_pending",
+          "severity": "high",
+          "message": "1 high-priority Day 1 tasks are still pending."
+        }
+      ]
+    },
+    "progress_summary": {
+      "total_tasks": 13,
+      "completed_tasks": 3,
+      "pending_tasks": 10,
+      "completion_rate": 23.08,
+      "overall_status": "at_risk",
+      "design_risk_count": 0,
+      "execution_risk_count": 1,
+      "key_risks": [
+        {
+          "type": "critical_tasks_pending",
+          "severity": "high",
+          "message": "1 high-priority Day 1 tasks are still pending."
+        }
+      ],
+      "all_frictions": [
+        {
+          "type": "critical_tasks_pending",
+          "severity": "high",
+          "message": "1 high-priority Day 1 tasks are still pending."
+        }
+      ],
+      "recommended_next_action": "Resolve high-priority execution tasks before onboarding starts."
+    }
+  },
+  {
+    "employee_id": "3437",
+    "name": "Myriam Givens",
+    "role": "Area Sales Manager",
+    "department": "Sales",
+    "manager": "Troy White",
+    "employee_type": "Contract",
+    "seniority": "senior",
+    "work_mode": "hybrid",
+    "profile_analysis": {
+      "employee_name": "Myriam Givens",
+      "role": "Area Sales Manager",
+      "department": "Sales",
+      "identified_needs": [
+        "Hybrid work expectations",
+        "Office coordination"
+      ],
+      "template_used": false
+    },
+    "onboarding_journey": {
+      "day_1": [
+        {
+          "owner": "IT",
+          "task": "Create access to: CRM, Email, Slack, Sales Dashboard",
+          "purpose": "Ensure system readiness"
+        },
+        {
+          "owner": "Manager",
+          "task": "Meet manager and buddy",
+          "purpose": "Onboarding step: Meet manager and buddy"
+        },
+        {
+          "owner": "IT",
+          "task": "Get access to CRM and sales tools",
+          "purpose": "Onboarding step: Get access to CRM and sales tools"
+        },
+        {
+          "owner": "New Hire",
+          "task": "Review sales process",
+          "purpose": "Onboarding step: Review sales process"
+        }
+      ],
+      "week_1": [
+        {
+          "owner": "Buddy",
+          "task": "Shadow one client call",
+          "purpose": "Onboarding step: Shadow one client call"
+        },
+        {
+          "owner": "New Hire",
+          "task": "Review active pipeline",
+          "purpose": "Onboarding step: Review active pipeline"
+        },
+        {
+          "owner": "New Hire",
+          "task": "Prepare first account summary",
+          "purpose": "Onboarding step: Prepare first account summary"
+        }
+      ],
+      "day_30": [
+        {
+          "owner": "New Hire",
+          "task": "Manage first low-risk client interaction",
+          "purpose": "Onboarding step: Manage first low-risk client interaction"
+        },
+        {
+          "owner": "Manager",
+          "task": "Run 30-day onboarding check-in",
+          "purpose": "Assess progress"
+        }
+      ],
+      "day_60": [
+        {
+          "owner": "New Hire",
+          "task": "Own a small sales opportunity",
+          "purpose": "Onboarding step: Own a small sales opportunity"
+        },
+        {
+          "owner": "Manager",
+          "task": "Run 60-day progress review",
+          "purpose": "Assess autonomy"
+        }
+      ],
+      "day_90": [
+        {
+          "owner": "New Hire",
+          "task": "Independently manage a defined account segment",
+          "purpose": "Onboarding step: Independently manage a defined account segment"
+        },
+        {
+          "owner": "Manager",
+          "task": "Run 90-day onboarding review",
+          "purpose": "Final onboarding evaluation"
+        }
+      ]
+    },
+    "onboarding_tasks": [
+      {
+        "task_id": "TASK_001",
+        "phase": "day_1",
+        "owner": "IT",
+        "task": "Create access to: CRM, Email, Slack, Sales Dashboard",
+        "purpose": "Ensure system readiness",
+        "status": "completed",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_002",
+        "phase": "day_1",
+        "owner": "Manager",
+        "task": "Meet manager and buddy",
+        "purpose": "Onboarding step: Meet manager and buddy",
+        "status": "completed",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_003",
+        "phase": "day_1",
+        "owner": "IT",
+        "task": "Get access to CRM and sales tools",
+        "purpose": "Onboarding step: Get access to CRM and sales tools",
+        "status": "completed",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_004",
+        "phase": "day_1",
+        "owner": "New Hire",
+        "task": "Review sales process",
+        "purpose": "Onboarding step: Review sales process",
+        "status": "pending",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_005",
+        "phase": "week_1",
+        "owner": "Buddy",
+        "task": "Shadow one client call",
+        "purpose": "Onboarding step: Shadow one client call",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_006",
+        "phase": "week_1",
+        "owner": "New Hire",
+        "task": "Review active pipeline",
+        "purpose": "Onboarding step: Review active pipeline",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_007",
+        "phase": "week_1",
+        "owner": "New Hire",
+        "task": "Prepare first account summary",
+        "purpose": "Onboarding step: Prepare first account summary",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_008",
+        "phase": "day_30",
+        "owner": "New Hire",
+        "task": "Manage first low-risk client interaction",
+        "purpose": "Onboarding step: Manage first low-risk client interaction",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_009",
+        "phase": "day_30",
+        "owner": "Manager",
+        "task": "Run 30-day onboarding check-in",
+        "purpose": "Assess progress",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_010",
+        "phase": "day_60",
+        "owner": "New Hire",
+        "task": "Own a small sales opportunity",
+        "purpose": "Onboarding step: Own a small sales opportunity",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_011",
+        "phase": "day_60",
+        "owner": "Manager",
+        "task": "Run 60-day progress review",
+        "purpose": "Assess autonomy",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_012",
+        "phase": "day_90",
+        "owner": "New Hire",
+        "task": "Independently manage a defined account segment",
+        "purpose": "Onboarding step: Independently manage a defined account segment",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_013",
+        "phase": "day_90",
+        "owner": "Manager",
+        "task": "Run 90-day onboarding review",
+        "purpose": "Final onboarding evaluation",
+        "status": "pending",
+        "priority": "medium"
+      }
+    ],
+    "friction_report": {
+      "friction_count": 1,
+      "frictions": [
+        {
+          "type": "critical_tasks_pending",
+          "severity": "high",
+          "message": "1 high-priority Day 1 tasks are still pending."
+        }
+      ]
+    },
+    "progress_summary": {
+      "total_tasks": 13,
+      "completed_tasks": 3,
+      "pending_tasks": 10,
+      "completion_rate": 23.08,
+      "overall_status": "at_risk",
+      "design_risk_count": 0,
+      "execution_risk_count": 1,
+      "key_risks": [
+        {
+          "type": "critical_tasks_pending",
+          "severity": "high",
+          "message": "1 high-priority Day 1 tasks are still pending."
+        }
+      ],
+      "all_frictions": [
+        {
+          "type": "critical_tasks_pending",
+          "severity": "high",
+          "message": "1 high-priority Day 1 tasks are still pending."
+        }
+      ],
+      "recommended_next_action": "Resolve high-priority execution tasks before onboarding starts."
+    }
+  },
+  {
+    "employee_id": "3438",
+    "name": "Dheepa Nguyen",
+    "role": "Area Sales Manager",
+    "department": "Sales",
+    "manager": "Brian Miller",
+    "employee_type": "Full-Time",
+    "seniority": "senior",
+    "work_mode": "hybrid",
+    "profile_analysis": {
+      "employee_name": "Dheepa Nguyen",
+      "role": "Area Sales Manager",
+      "department": "Sales",
+      "identified_needs": [
+        "Hybrid work expectations",
+        "Office coordination"
+      ],
+      "template_used": false
+    },
+    "onboarding_journey": {
+      "day_1": [
+        {
+          "owner": "IT",
+          "task": "Create access to: CRM, Email, Slack, Sales Dashboard",
+          "purpose": "Ensure system readiness"
+        },
+        {
+          "owner": "Manager",
+          "task": "Meet manager and buddy",
+          "purpose": "Onboarding step: Meet manager and buddy"
+        },
+        {
+          "owner": "IT",
+          "task": "Get access to CRM and sales tools",
+          "purpose": "Onboarding step: Get access to CRM and sales tools"
+        },
+        {
+          "owner": "New Hire",
+          "task": "Review sales process",
+          "purpose": "Onboarding step: Review sales process"
+        }
+      ],
+      "week_1": [
+        {
+          "owner": "Buddy",
+          "task": "Shadow one client call",
+          "purpose": "Onboarding step: Shadow one client call"
+        },
+        {
+          "owner": "New Hire",
+          "task": "Review active pipeline",
+          "purpose": "Onboarding step: Review active pipeline"
+        },
+        {
+          "owner": "New Hire",
+          "task": "Prepare first account summary",
+          "purpose": "Onboarding step: Prepare first account summary"
+        }
+      ],
+      "day_30": [
+        {
+          "owner": "New Hire",
+          "task": "Manage first low-risk client interaction",
+          "purpose": "Onboarding step: Manage first low-risk client interaction"
+        },
+        {
+          "owner": "Manager",
+          "task": "Run 30-day onboarding check-in",
+          "purpose": "Assess progress"
+        }
+      ],
+      "day_60": [
+        {
+          "owner": "New Hire",
+          "task": "Own a small sales opportunity",
+          "purpose": "Onboarding step: Own a small sales opportunity"
+        },
+        {
+          "owner": "Manager",
+          "task": "Run 60-day progress review",
+          "purpose": "Assess autonomy"
+        }
+      ],
+      "day_90": [
+        {
+          "owner": "New Hire",
+          "task": "Independently manage a defined account segment",
+          "purpose": "Onboarding step: Independently manage a defined account segment"
+        },
+        {
+          "owner": "Manager",
+          "task": "Run 90-day onboarding review",
+          "purpose": "Final onboarding evaluation"
+        }
+      ]
+    },
+    "onboarding_tasks": [
+      {
+        "task_id": "TASK_001",
+        "phase": "day_1",
+        "owner": "IT",
+        "task": "Create access to: CRM, Email, Slack, Sales Dashboard",
+        "purpose": "Ensure system readiness",
+        "status": "completed",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_002",
+        "phase": "day_1",
+        "owner": "Manager",
+        "task": "Meet manager and buddy",
+        "purpose": "Onboarding step: Meet manager and buddy",
+        "status": "completed",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_003",
+        "phase": "day_1",
+        "owner": "IT",
+        "task": "Get access to CRM and sales tools",
+        "purpose": "Onboarding step: Get access to CRM and sales tools",
+        "status": "completed",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_004",
+        "phase": "day_1",
+        "owner": "New Hire",
+        "task": "Review sales process",
+        "purpose": "Onboarding step: Review sales process",
+        "status": "pending",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_005",
+        "phase": "week_1",
+        "owner": "Buddy",
+        "task": "Shadow one client call",
+        "purpose": "Onboarding step: Shadow one client call",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_006",
+        "phase": "week_1",
+        "owner": "New Hire",
+        "task": "Review active pipeline",
+        "purpose": "Onboarding step: Review active pipeline",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_007",
+        "phase": "week_1",
+        "owner": "New Hire",
+        "task": "Prepare first account summary",
+        "purpose": "Onboarding step: Prepare first account summary",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_008",
+        "phase": "day_30",
+        "owner": "New Hire",
+        "task": "Manage first low-risk client interaction",
+        "purpose": "Onboarding step: Manage first low-risk client interaction",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_009",
+        "phase": "day_30",
+        "owner": "Manager",
+        "task": "Run 30-day onboarding check-in",
+        "purpose": "Assess progress",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_010",
+        "phase": "day_60",
+        "owner": "New Hire",
+        "task": "Own a small sales opportunity",
+        "purpose": "Onboarding step: Own a small sales opportunity",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_011",
+        "phase": "day_60",
+        "owner": "Manager",
+        "task": "Run 60-day progress review",
+        "purpose": "Assess autonomy",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_012",
+        "phase": "day_90",
+        "owner": "New Hire",
+        "task": "Independently manage a defined account segment",
+        "purpose": "Onboarding step: Independently manage a defined account segment",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_013",
+        "phase": "day_90",
+        "owner": "Manager",
+        "task": "Run 90-day onboarding review",
+        "purpose": "Final onboarding evaluation",
+        "status": "pending",
+        "priority": "medium"
+      }
+    ],
+    "friction_report": {
+      "friction_count": 1,
+      "frictions": [
+        {
+          "type": "critical_tasks_pending",
+          "severity": "high",
+          "message": "1 high-priority Day 1 tasks are still pending."
+        }
+      ]
+    },
+    "progress_summary": {
+      "total_tasks": 13,
+      "completed_tasks": 3,
+      "pending_tasks": 10,
+      "completion_rate": 23.08,
+      "overall_status": "at_risk",
+      "design_risk_count": 0,
+      "execution_risk_count": 1,
+      "key_risks": [
+        {
+          "type": "critical_tasks_pending",
+          "severity": "high",
+          "message": "1 high-priority Day 1 tasks are still pending."
+        }
+      ],
+      "all_frictions": [
+        {
+          "type": "critical_tasks_pending",
+          "severity": "high",
+          "message": "1 high-priority Day 1 tasks are still pending."
+        }
+      ],
+      "recommended_next_action": "Resolve high-priority execution tasks before onboarding starts."
+    }
+  },
+  {
+    "employee_id": "3439",
+    "name": "Bartholemew Khemmich",
+    "role": "Area Sales Manager",
+    "department": "Sales",
+    "manager": "Charles Parks",
+    "employee_type": "Full-Time",
+    "seniority": "senior",
+    "work_mode": "hybrid",
+    "profile_analysis": {
+      "employee_name": "Bartholemew Khemmich",
+      "role": "Area Sales Manager",
+      "department": "Sales",
+      "identified_needs": [
+        "Hybrid work expectations",
+        "Office coordination"
+      ],
+      "template_used": false
+    },
+    "onboarding_journey": {
+      "day_1": [
+        {
+          "owner": "IT",
+          "task": "Create access to: CRM, Email, Slack, Sales Dashboard",
+          "purpose": "Ensure system readiness"
+        },
+        {
+          "owner": "Manager",
+          "task": "Meet manager and buddy",
+          "purpose": "Onboarding step: Meet manager and buddy"
+        },
+        {
+          "owner": "IT",
+          "task": "Get access to CRM and sales tools",
+          "purpose": "Onboarding step: Get access to CRM and sales tools"
+        },
+        {
+          "owner": "New Hire",
+          "task": "Review sales process",
+          "purpose": "Onboarding step: Review sales process"
+        }
+      ],
+      "week_1": [
+        {
+          "owner": "Buddy",
+          "task": "Shadow one client call",
+          "purpose": "Onboarding step: Shadow one client call"
+        },
+        {
+          "owner": "New Hire",
+          "task": "Review active pipeline",
+          "purpose": "Onboarding step: Review active pipeline"
+        },
+        {
+          "owner": "New Hire",
+          "task": "Prepare first account summary",
+          "purpose": "Onboarding step: Prepare first account summary"
+        }
+      ],
+      "day_30": [
+        {
+          "owner": "New Hire",
+          "task": "Manage first low-risk client interaction",
+          "purpose": "Onboarding step: Manage first low-risk client interaction"
+        },
+        {
+          "owner": "Manager",
+          "task": "Run 30-day onboarding check-in",
+          "purpose": "Assess progress"
+        }
+      ],
+      "day_60": [
+        {
+          "owner": "New Hire",
+          "task": "Own a small sales opportunity",
+          "purpose": "Onboarding step: Own a small sales opportunity"
+        },
+        {
+          "owner": "Manager",
+          "task": "Run 60-day progress review",
+          "purpose": "Assess autonomy"
+        }
+      ],
+      "day_90": [
+        {
+          "owner": "New Hire",
+          "task": "Independently manage a defined account segment",
+          "purpose": "Onboarding step: Independently manage a defined account segment"
+        },
+        {
+          "owner": "Manager",
+          "task": "Run 90-day onboarding review",
+          "purpose": "Final onboarding evaluation"
+        }
+      ]
+    },
+    "onboarding_tasks": [
+      {
+        "task_id": "TASK_001",
+        "phase": "day_1",
+        "owner": "IT",
+        "task": "Create access to: CRM, Email, Slack, Sales Dashboard",
+        "purpose": "Ensure system readiness",
+        "status": "completed",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_002",
+        "phase": "day_1",
+        "owner": "Manager",
+        "task": "Meet manager and buddy",
+        "purpose": "Onboarding step: Meet manager and buddy",
+        "status": "completed",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_003",
+        "phase": "day_1",
+        "owner": "IT",
+        "task": "Get access to CRM and sales tools",
+        "purpose": "Onboarding step: Get access to CRM and sales tools",
+        "status": "completed",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_004",
+        "phase": "day_1",
+        "owner": "New Hire",
+        "task": "Review sales process",
+        "purpose": "Onboarding step: Review sales process",
+        "status": "pending",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_005",
+        "phase": "week_1",
+        "owner": "Buddy",
+        "task": "Shadow one client call",
+        "purpose": "Onboarding step: Shadow one client call",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_006",
+        "phase": "week_1",
+        "owner": "New Hire",
+        "task": "Review active pipeline",
+        "purpose": "Onboarding step: Review active pipeline",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_007",
+        "phase": "week_1",
+        "owner": "New Hire",
+        "task": "Prepare first account summary",
+        "purpose": "Onboarding step: Prepare first account summary",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_008",
+        "phase": "day_30",
+        "owner": "New Hire",
+        "task": "Manage first low-risk client interaction",
+        "purpose": "Onboarding step: Manage first low-risk client interaction",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_009",
+        "phase": "day_30",
+        "owner": "Manager",
+        "task": "Run 30-day onboarding check-in",
+        "purpose": "Assess progress",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_010",
+        "phase": "day_60",
+        "owner": "New Hire",
+        "task": "Own a small sales opportunity",
+        "purpose": "Onboarding step: Own a small sales opportunity",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_011",
+        "phase": "day_60",
+        "owner": "Manager",
+        "task": "Run 60-day progress review",
+        "purpose": "Assess autonomy",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_012",
+        "phase": "day_90",
+        "owner": "New Hire",
+        "task": "Independently manage a defined account segment",
+        "purpose": "Onboarding step: Independently manage a defined account segment",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_013",
+        "phase": "day_90",
+        "owner": "Manager",
+        "task": "Run 90-day onboarding review",
+        "purpose": "Final onboarding evaluation",
+        "status": "pending",
+        "priority": "medium"
+      }
+    ],
+    "friction_report": {
+      "friction_count": 1,
+      "frictions": [
+        {
+          "type": "critical_tasks_pending",
+          "severity": "high",
+          "message": "1 high-priority Day 1 tasks are still pending."
+        }
+      ]
+    },
+    "progress_summary": {
+      "total_tasks": 13,
+      "completed_tasks": 3,
+      "pending_tasks": 10,
+      "completion_rate": 23.08,
+      "overall_status": "at_risk",
+      "design_risk_count": 0,
+      "execution_risk_count": 1,
+      "key_risks": [
+        {
+          "type": "critical_tasks_pending",
+          "severity": "high",
+          "message": "1 high-priority Day 1 tasks are still pending."
+        }
+      ],
+      "all_frictions": [
+        {
+          "type": "critical_tasks_pending",
+          "severity": "high",
+          "message": "1 high-priority Day 1 tasks are still pending."
+        }
+      ],
+      "recommended_next_action": "Resolve high-priority execution tasks before onboarding starts."
+    }
+  },
+  {
+    "employee_id": "3440",
+    "name": "Xana Potts",
+    "role": "Area Sales Manager",
+    "department": "Sales",
+    "manager": "Gregory Walker",
+    "employee_type": "Contract",
+    "seniority": "senior",
+    "work_mode": "hybrid",
+    "profile_analysis": {
+      "employee_name": "Xana Potts",
+      "role": "Area Sales Manager",
+      "department": "Sales",
+      "identified_needs": [
+        "Hybrid work expectations",
+        "Office coordination"
+      ],
+      "template_used": false
+    },
+    "onboarding_journey": {
+      "day_1": [
+        {
+          "owner": "IT",
+          "task": "Create access to: CRM, Email, Slack, Sales Dashboard",
+          "purpose": "Ensure system readiness"
+        },
+        {
+          "owner": "Manager",
+          "task": "Meet manager and buddy",
+          "purpose": "Onboarding step: Meet manager and buddy"
+        },
+        {
+          "owner": "IT",
+          "task": "Get access to CRM and sales tools",
+          "purpose": "Onboarding step: Get access to CRM and sales tools"
+        },
+        {
+          "owner": "New Hire",
+          "task": "Review sales process",
+          "purpose": "Onboarding step: Review sales process"
+        }
+      ],
+      "week_1": [
+        {
+          "owner": "Buddy",
+          "task": "Shadow one client call",
+          "purpose": "Onboarding step: Shadow one client call"
+        },
+        {
+          "owner": "New Hire",
+          "task": "Review active pipeline",
+          "purpose": "Onboarding step: Review active pipeline"
+        },
+        {
+          "owner": "New Hire",
+          "task": "Prepare first account summary",
+          "purpose": "Onboarding step: Prepare first account summary"
+        }
+      ],
+      "day_30": [
+        {
+          "owner": "New Hire",
+          "task": "Manage first low-risk client interaction",
+          "purpose": "Onboarding step: Manage first low-risk client interaction"
+        },
+        {
+          "owner": "Manager",
+          "task": "Run 30-day onboarding check-in",
+          "purpose": "Assess progress"
+        }
+      ],
+      "day_60": [
+        {
+          "owner": "New Hire",
+          "task": "Own a small sales opportunity",
+          "purpose": "Onboarding step: Own a small sales opportunity"
+        },
+        {
+          "owner": "Manager",
+          "task": "Run 60-day progress review",
+          "purpose": "Assess autonomy"
+        }
+      ],
+      "day_90": [
+        {
+          "owner": "New Hire",
+          "task": "Independently manage a defined account segment",
+          "purpose": "Onboarding step: Independently manage a defined account segment"
+        },
+        {
+          "owner": "Manager",
+          "task": "Run 90-day onboarding review",
+          "purpose": "Final onboarding evaluation"
+        }
+      ]
+    },
+    "onboarding_tasks": [
+      {
+        "task_id": "TASK_001",
+        "phase": "day_1",
+        "owner": "IT",
+        "task": "Create access to: CRM, Email, Slack, Sales Dashboard",
+        "purpose": "Ensure system readiness",
+        "status": "completed",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_002",
+        "phase": "day_1",
+        "owner": "Manager",
+        "task": "Meet manager and buddy",
+        "purpose": "Onboarding step: Meet manager and buddy",
+        "status": "completed",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_003",
+        "phase": "day_1",
+        "owner": "IT",
+        "task": "Get access to CRM and sales tools",
+        "purpose": "Onboarding step: Get access to CRM and sales tools",
+        "status": "completed",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_004",
+        "phase": "day_1",
+        "owner": "New Hire",
+        "task": "Review sales process",
+        "purpose": "Onboarding step: Review sales process",
+        "status": "pending",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_005",
+        "phase": "week_1",
+        "owner": "Buddy",
+        "task": "Shadow one client call",
+        "purpose": "Onboarding step: Shadow one client call",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_006",
+        "phase": "week_1",
+        "owner": "New Hire",
+        "task": "Review active pipeline",
+        "purpose": "Onboarding step: Review active pipeline",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_007",
+        "phase": "week_1",
+        "owner": "New Hire",
+        "task": "Prepare first account summary",
+        "purpose": "Onboarding step: Prepare first account summary",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_008",
+        "phase": "day_30",
+        "owner": "New Hire",
+        "task": "Manage first low-risk client interaction",
+        "purpose": "Onboarding step: Manage first low-risk client interaction",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_009",
+        "phase": "day_30",
+        "owner": "Manager",
+        "task": "Run 30-day onboarding check-in",
+        "purpose": "Assess progress",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_010",
+        "phase": "day_60",
+        "owner": "New Hire",
+        "task": "Own a small sales opportunity",
+        "purpose": "Onboarding step: Own a small sales opportunity",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_011",
+        "phase": "day_60",
+        "owner": "Manager",
+        "task": "Run 60-day progress review",
+        "purpose": "Assess autonomy",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_012",
+        "phase": "day_90",
+        "owner": "New Hire",
+        "task": "Independently manage a defined account segment",
+        "purpose": "Onboarding step: Independently manage a defined account segment",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_013",
+        "phase": "day_90",
+        "owner": "Manager",
+        "task": "Run 90-day onboarding review",
+        "purpose": "Final onboarding evaluation",
+        "status": "pending",
+        "priority": "medium"
+      }
+    ],
+    "friction_report": {
+      "friction_count": 1,
+      "frictions": [
+        {
+          "type": "critical_tasks_pending",
+          "severity": "high",
+          "message": "1 high-priority Day 1 tasks are still pending."
+        }
+      ]
+    },
+    "progress_summary": {
+      "total_tasks": 13,
+      "completed_tasks": 3,
+      "pending_tasks": 10,
+      "completion_rate": 23.08,
+      "overall_status": "at_risk",
+      "design_risk_count": 0,
+      "execution_risk_count": 1,
+      "key_risks": [
+        {
+          "type": "critical_tasks_pending",
+          "severity": "high",
+          "message": "1 high-priority Day 1 tasks are still pending."
+        }
+      ],
+      "all_frictions": [
+        {
+          "type": "critical_tasks_pending",
+          "severity": "high",
+          "message": "1 high-priority Day 1 tasks are still pending."
+        }
+      ],
+      "recommended_next_action": "Resolve high-priority execution tasks before onboarding starts."
+    }
+  },
+  {
+    "employee_id": "3441",
+    "name": "Prater Jeremy",
+    "role": "Area Sales Manager",
+    "department": "Sales",
+    "manager": "Tyler Lewis",
+    "employee_type": "Part-Time",
+    "seniority": "senior",
+    "work_mode": "hybrid",
+    "profile_analysis": {
+      "employee_name": "Prater Jeremy",
+      "role": "Area Sales Manager",
+      "department": "Sales",
+      "identified_needs": [
+        "Hybrid work expectations",
+        "Office coordination"
+      ],
+      "template_used": false
+    },
+    "onboarding_journey": {
+      "day_1": [
+        {
+          "owner": "IT",
+          "task": "Create access to: CRM, Email, Slack, Sales Dashboard",
+          "purpose": "Ensure system readiness"
+        },
+        {
+          "owner": "Manager",
+          "task": "Meet manager and buddy",
+          "purpose": "Onboarding step: Meet manager and buddy"
+        },
+        {
+          "owner": "IT",
+          "task": "Get access to CRM and sales tools",
+          "purpose": "Onboarding step: Get access to CRM and sales tools"
+        },
+        {
+          "owner": "New Hire",
+          "task": "Review sales process",
+          "purpose": "Onboarding step: Review sales process"
+        }
+      ],
+      "week_1": [
+        {
+          "owner": "Buddy",
+          "task": "Shadow one client call",
+          "purpose": "Onboarding step: Shadow one client call"
+        },
+        {
+          "owner": "New Hire",
+          "task": "Review active pipeline",
+          "purpose": "Onboarding step: Review active pipeline"
+        },
+        {
+          "owner": "New Hire",
+          "task": "Prepare first account summary",
+          "purpose": "Onboarding step: Prepare first account summary"
+        }
+      ],
+      "day_30": [
+        {
+          "owner": "New Hire",
+          "task": "Manage first low-risk client interaction",
+          "purpose": "Onboarding step: Manage first low-risk client interaction"
+        },
+        {
+          "owner": "Manager",
+          "task": "Run 30-day onboarding check-in",
+          "purpose": "Assess progress"
+        }
+      ],
+      "day_60": [
+        {
+          "owner": "New Hire",
+          "task": "Own a small sales opportunity",
+          "purpose": "Onboarding step: Own a small sales opportunity"
+        },
+        {
+          "owner": "Manager",
+          "task": "Run 60-day progress review",
+          "purpose": "Assess autonomy"
+        }
+      ],
+      "day_90": [
+        {
+          "owner": "New Hire",
+          "task": "Independently manage a defined account segment",
+          "purpose": "Onboarding step: Independently manage a defined account segment"
+        },
+        {
+          "owner": "Manager",
+          "task": "Run 90-day onboarding review",
+          "purpose": "Final onboarding evaluation"
+        }
+      ]
+    },
+    "onboarding_tasks": [
+      {
+        "task_id": "TASK_001",
+        "phase": "day_1",
+        "owner": "IT",
+        "task": "Create access to: CRM, Email, Slack, Sales Dashboard",
+        "purpose": "Ensure system readiness",
+        "status": "completed",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_002",
+        "phase": "day_1",
+        "owner": "Manager",
+        "task": "Meet manager and buddy",
+        "purpose": "Onboarding step: Meet manager and buddy",
+        "status": "completed",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_003",
+        "phase": "day_1",
+        "owner": "IT",
+        "task": "Get access to CRM and sales tools",
+        "purpose": "Onboarding step: Get access to CRM and sales tools",
+        "status": "completed",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_004",
+        "phase": "day_1",
+        "owner": "New Hire",
+        "task": "Review sales process",
+        "purpose": "Onboarding step: Review sales process",
+        "status": "pending",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_005",
+        "phase": "week_1",
+        "owner": "Buddy",
+        "task": "Shadow one client call",
+        "purpose": "Onboarding step: Shadow one client call",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_006",
+        "phase": "week_1",
+        "owner": "New Hire",
+        "task": "Review active pipeline",
+        "purpose": "Onboarding step: Review active pipeline",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_007",
+        "phase": "week_1",
+        "owner": "New Hire",
+        "task": "Prepare first account summary",
+        "purpose": "Onboarding step: Prepare first account summary",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_008",
+        "phase": "day_30",
+        "owner": "New Hire",
+        "task": "Manage first low-risk client interaction",
+        "purpose": "Onboarding step: Manage first low-risk client interaction",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_009",
+        "phase": "day_30",
+        "owner": "Manager",
+        "task": "Run 30-day onboarding check-in",
+        "purpose": "Assess progress",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_010",
+        "phase": "day_60",
+        "owner": "New Hire",
+        "task": "Own a small sales opportunity",
+        "purpose": "Onboarding step: Own a small sales opportunity",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_011",
+        "phase": "day_60",
+        "owner": "Manager",
+        "task": "Run 60-day progress review",
+        "purpose": "Assess autonomy",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_012",
+        "phase": "day_90",
+        "owner": "New Hire",
+        "task": "Independently manage a defined account segment",
+        "purpose": "Onboarding step: Independently manage a defined account segment",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_013",
+        "phase": "day_90",
+        "owner": "Manager",
+        "task": "Run 90-day onboarding review",
+        "purpose": "Final onboarding evaluation",
+        "status": "pending",
+        "priority": "medium"
+      }
+    ],
+    "friction_report": {
+      "friction_count": 1,
+      "frictions": [
+        {
+          "type": "critical_tasks_pending",
+          "severity": "high",
+          "message": "1 high-priority Day 1 tasks are still pending."
+        }
+      ]
+    },
+    "progress_summary": {
+      "total_tasks": 13,
+      "completed_tasks": 3,
+      "pending_tasks": 10,
+      "completion_rate": 23.08,
+      "overall_status": "at_risk",
+      "design_risk_count": 0,
+      "execution_risk_count": 1,
+      "key_risks": [
+        {
+          "type": "critical_tasks_pending",
+          "severity": "high",
+          "message": "1 high-priority Day 1 tasks are still pending."
+        }
+      ],
+      "all_frictions": [
+        {
+          "type": "critical_tasks_pending",
+          "severity": "high",
+          "message": "1 high-priority Day 1 tasks are still pending."
+        }
+      ],
+      "recommended_next_action": "Resolve high-priority execution tasks before onboarding starts."
+    }
+  },
+  {
+    "employee_id": "3442",
+    "name": "Kaylah Moon",
+    "role": "Area Sales Manager",
+    "department": "IT/IS",
+    "manager": "Ashley Scott",
+    "employee_type": "Full-Time",
+    "seniority": "senior",
+    "work_mode": "hybrid",
+    "profile_analysis": {
+      "employee_name": "Kaylah Moon",
+      "role": "Area Sales Manager",
+      "department": "IT/IS",
+      "identified_needs": [
+        "Hybrid work expectations",
+        "Office coordination"
+      ],
+      "template_used": false
+    },
+    "onboarding_journey": {
+      "day_1": [
+        {
+          "owner": "IT",
+          "task": "Create access to: VPN, Jira, GitHub, Monitoring Tool, Slack",
+          "purpose": "Ensure system readiness"
+        }
+      ],
+      "week_1": [],
+      "day_30": [
+        {
+          "owner": "Manager",
+          "task": "Run 30-day onboarding check-in",
+          "purpose": "Assess progress"
+        }
+      ],
+      "day_60": [
+        {
+          "owner": "Manager",
+          "task": "Run 60-day progress review",
+          "purpose": "Assess autonomy"
+        }
+      ],
+      "day_90": [
+        {
+          "owner": "Manager",
+          "task": "Run 90-day onboarding review",
+          "purpose": "Final onboarding evaluation"
+        }
+      ]
+    },
+    "onboarding_tasks": [
+      {
+        "task_id": "TASK_001",
+        "phase": "day_1",
+        "owner": "IT",
+        "task": "Create access to: VPN, Jira, GitHub, Monitoring Tool, Slack",
+        "purpose": "Ensure system readiness",
+        "status": "completed",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_002",
+        "phase": "day_30",
+        "owner": "Manager",
+        "task": "Run 30-day onboarding check-in",
+        "purpose": "Assess progress",
+        "status": "completed",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_003",
+        "phase": "day_60",
+        "owner": "Manager",
+        "task": "Run 60-day progress review",
+        "purpose": "Assess autonomy",
+        "status": "completed",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_004",
+        "phase": "day_90",
+        "owner": "Manager",
+        "task": "Run 90-day onboarding review",
+        "purpose": "Final onboarding evaluation",
+        "status": "pending",
+        "priority": "medium"
+      }
+    ],
+    "friction_report": {
+      "friction_count": 1,
+      "frictions": [
+        {
+          "type": "missing_buddy_support",
+          "severity": "medium",
+          "message": "No buddy-related task was found."
+        }
+      ]
+    },
+    "progress_summary": {
+      "total_tasks": 4,
+      "completed_tasks": 3,
+      "pending_tasks": 1,
+      "completion_rate": 75.0,
+      "overall_status": "in_progress",
+      "design_risk_count": 1,
+      "execution_risk_count": 0,
+      "key_risks": [],
+      "all_frictions": [
+        {
+          "type": "missing_buddy_support",
+          "severity": "medium",
+          "message": "No buddy-related task was found."
+        }
+      ],
+      "recommended_next_action": "Fix onboarding design gaps before evaluating execution progress."
+    }
+  },
+  {
+    "employee_id": "3443",
+    "name": "Kristen Tate",
+    "role": "Area Sales Manager",
+    "department": "IT/IS",
+    "manager": "Lauren Jones",
+    "employee_type": "Full-Time",
+    "seniority": "senior",
+    "work_mode": "hybrid",
+    "profile_analysis": {
+      "employee_name": "Kristen Tate",
+      "role": "Area Sales Manager",
+      "department": "IT/IS",
+      "identified_needs": [
+        "Hybrid work expectations",
+        "Office coordination"
+      ],
+      "template_used": false
+    },
+    "onboarding_journey": {
+      "day_1": [
+        {
+          "owner": "IT",
+          "task": "Create access to: VPN, Jira, GitHub, Monitoring Tool, Slack",
+          "purpose": "Ensure system readiness"
+        }
+      ],
+      "week_1": [],
+      "day_30": [
+        {
+          "owner": "Manager",
+          "task": "Run 30-day onboarding check-in",
+          "purpose": "Assess progress"
+        }
+      ],
+      "day_60": [
+        {
+          "owner": "Manager",
+          "task": "Run 60-day progress review",
+          "purpose": "Assess autonomy"
+        }
+      ],
+      "day_90": [
+        {
+          "owner": "Manager",
+          "task": "Run 90-day onboarding review",
+          "purpose": "Final onboarding evaluation"
+        }
+      ]
+    },
+    "onboarding_tasks": [
+      {
+        "task_id": "TASK_001",
+        "phase": "day_1",
+        "owner": "IT",
+        "task": "Create access to: VPN, Jira, GitHub, Monitoring Tool, Slack",
+        "purpose": "Ensure system readiness",
+        "status": "completed",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_002",
+        "phase": "day_30",
+        "owner": "Manager",
+        "task": "Run 30-day onboarding check-in",
+        "purpose": "Assess progress",
+        "status": "completed",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_003",
+        "phase": "day_60",
+        "owner": "Manager",
+        "task": "Run 60-day progress review",
+        "purpose": "Assess autonomy",
+        "status": "completed",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_004",
+        "phase": "day_90",
+        "owner": "Manager",
+        "task": "Run 90-day onboarding review",
+        "purpose": "Final onboarding evaluation",
+        "status": "pending",
+        "priority": "medium"
+      }
+    ],
+    "friction_report": {
+      "friction_count": 1,
+      "frictions": [
+        {
+          "type": "missing_buddy_support",
+          "severity": "medium",
+          "message": "No buddy-related task was found."
+        }
+      ]
+    },
+    "progress_summary": {
+      "total_tasks": 4,
+      "completed_tasks": 3,
+      "pending_tasks": 1,
+      "completion_rate": 75.0,
+      "overall_status": "in_progress",
+      "design_risk_count": 1,
+      "execution_risk_count": 0,
+      "key_risks": [],
+      "all_frictions": [
+        {
+          "type": "missing_buddy_support",
+          "severity": "medium",
+          "message": "No buddy-related task was found."
+        }
+      ],
+      "recommended_next_action": "Fix onboarding design gaps before evaluating execution progress."
+    }
+  },
+  {
+    "employee_id": "3444",
+    "name": "Bobby Rodgers",
+    "role": "Area Sales Manager",
+    "department": "Sales",
+    "manager": "Matthew Jackson",
+    "employee_type": "Contract",
+    "seniority": "senior",
+    "work_mode": "hybrid",
+    "profile_analysis": {
+      "employee_name": "Bobby Rodgers",
+      "role": "Area Sales Manager",
+      "department": "Sales",
+      "identified_needs": [
+        "Hybrid work expectations",
+        "Office coordination"
+      ],
+      "template_used": false
+    },
+    "onboarding_journey": {
+      "day_1": [
+        {
+          "owner": "IT",
+          "task": "Create access to: CRM, Email, Slack, Sales Dashboard",
+          "purpose": "Ensure system readiness"
+        },
+        {
+          "owner": "Manager",
+          "task": "Meet manager and buddy",
+          "purpose": "Onboarding step: Meet manager and buddy"
+        },
+        {
+          "owner": "IT",
+          "task": "Get access to CRM and sales tools",
+          "purpose": "Onboarding step: Get access to CRM and sales tools"
+        },
+        {
+          "owner": "New Hire",
+          "task": "Review sales process",
+          "purpose": "Onboarding step: Review sales process"
+        }
+      ],
+      "week_1": [
+        {
+          "owner": "Buddy",
+          "task": "Shadow one client call",
+          "purpose": "Onboarding step: Shadow one client call"
+        },
+        {
+          "owner": "New Hire",
+          "task": "Review active pipeline",
+          "purpose": "Onboarding step: Review active pipeline"
+        },
+        {
+          "owner": "New Hire",
+          "task": "Prepare first account summary",
+          "purpose": "Onboarding step: Prepare first account summary"
+        }
+      ],
+      "day_30": [
+        {
+          "owner": "New Hire",
+          "task": "Manage first low-risk client interaction",
+          "purpose": "Onboarding step: Manage first low-risk client interaction"
+        },
+        {
+          "owner": "Manager",
+          "task": "Run 30-day onboarding check-in",
+          "purpose": "Assess progress"
+        }
+      ],
+      "day_60": [
+        {
+          "owner": "New Hire",
+          "task": "Own a small sales opportunity",
+          "purpose": "Onboarding step: Own a small sales opportunity"
+        },
+        {
+          "owner": "Manager",
+          "task": "Run 60-day progress review",
+          "purpose": "Assess autonomy"
+        }
+      ],
+      "day_90": [
+        {
+          "owner": "New Hire",
+          "task": "Independently manage a defined account segment",
+          "purpose": "Onboarding step: Independently manage a defined account segment"
+        },
+        {
+          "owner": "Manager",
+          "task": "Run 90-day onboarding review",
+          "purpose": "Final onboarding evaluation"
+        }
+      ]
+    },
+    "onboarding_tasks": [
+      {
+        "task_id": "TASK_001",
+        "phase": "day_1",
+        "owner": "IT",
+        "task": "Create access to: CRM, Email, Slack, Sales Dashboard",
+        "purpose": "Ensure system readiness",
+        "status": "completed",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_002",
+        "phase": "day_1",
+        "owner": "Manager",
+        "task": "Meet manager and buddy",
+        "purpose": "Onboarding step: Meet manager and buddy",
+        "status": "completed",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_003",
+        "phase": "day_1",
+        "owner": "IT",
+        "task": "Get access to CRM and sales tools",
+        "purpose": "Onboarding step: Get access to CRM and sales tools",
+        "status": "completed",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_004",
+        "phase": "day_1",
+        "owner": "New Hire",
+        "task": "Review sales process",
+        "purpose": "Onboarding step: Review sales process",
+        "status": "pending",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_005",
+        "phase": "week_1",
+        "owner": "Buddy",
+        "task": "Shadow one client call",
+        "purpose": "Onboarding step: Shadow one client call",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_006",
+        "phase": "week_1",
+        "owner": "New Hire",
+        "task": "Review active pipeline",
+        "purpose": "Onboarding step: Review active pipeline",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_007",
+        "phase": "week_1",
+        "owner": "New Hire",
+        "task": "Prepare first account summary",
+        "purpose": "Onboarding step: Prepare first account summary",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_008",
+        "phase": "day_30",
+        "owner": "New Hire",
+        "task": "Manage first low-risk client interaction",
+        "purpose": "Onboarding step: Manage first low-risk client interaction",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_009",
+        "phase": "day_30",
+        "owner": "Manager",
+        "task": "Run 30-day onboarding check-in",
+        "purpose": "Assess progress",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_010",
+        "phase": "day_60",
+        "owner": "New Hire",
+        "task": "Own a small sales opportunity",
+        "purpose": "Onboarding step: Own a small sales opportunity",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_011",
+        "phase": "day_60",
+        "owner": "Manager",
+        "task": "Run 60-day progress review",
+        "purpose": "Assess autonomy",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_012",
+        "phase": "day_90",
+        "owner": "New Hire",
+        "task": "Independently manage a defined account segment",
+        "purpose": "Onboarding step: Independently manage a defined account segment",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_013",
+        "phase": "day_90",
+        "owner": "Manager",
+        "task": "Run 90-day onboarding review",
+        "purpose": "Final onboarding evaluation",
+        "status": "pending",
+        "priority": "medium"
+      }
+    ],
+    "friction_report": {
+      "friction_count": 1,
+      "frictions": [
+        {
+          "type": "critical_tasks_pending",
+          "severity": "high",
+          "message": "1 high-priority Day 1 tasks are still pending."
+        }
+      ]
+    },
+    "progress_summary": {
+      "total_tasks": 13,
+      "completed_tasks": 3,
+      "pending_tasks": 10,
+      "completion_rate": 23.08,
+      "overall_status": "at_risk",
+      "design_risk_count": 0,
+      "execution_risk_count": 1,
+      "key_risks": [
+        {
+          "type": "critical_tasks_pending",
+          "severity": "high",
+          "message": "1 high-priority Day 1 tasks are still pending."
+        }
+      ],
+      "all_frictions": [
+        {
+          "type": "critical_tasks_pending",
+          "severity": "high",
+          "message": "1 high-priority Day 1 tasks are still pending."
+        }
+      ],
+      "recommended_next_action": "Resolve high-priority execution tasks before onboarding starts."
+    }
+  },
+  {
+    "employee_id": "3445",
+    "name": "Reid Park",
+    "role": "Area Sales Manager",
+    "department": "Sales",
+    "manager": "Michelle Mitchell",
+    "employee_type": "Contract",
+    "seniority": "senior",
+    "work_mode": "hybrid",
+    "profile_analysis": {
+      "employee_name": "Reid Park",
+      "role": "Area Sales Manager",
+      "department": "Sales",
+      "identified_needs": [
+        "Hybrid work expectations",
+        "Office coordination"
+      ],
+      "template_used": false
+    },
+    "onboarding_journey": {
+      "day_1": [
+        {
+          "owner": "IT",
+          "task": "Create access to: CRM, Email, Slack, Sales Dashboard",
+          "purpose": "Ensure system readiness"
+        },
+        {
+          "owner": "Manager",
+          "task": "Meet manager and buddy",
+          "purpose": "Onboarding step: Meet manager and buddy"
+        },
+        {
+          "owner": "IT",
+          "task": "Get access to CRM and sales tools",
+          "purpose": "Onboarding step: Get access to CRM and sales tools"
+        },
+        {
+          "owner": "New Hire",
+          "task": "Review sales process",
+          "purpose": "Onboarding step: Review sales process"
+        }
+      ],
+      "week_1": [
+        {
+          "owner": "Buddy",
+          "task": "Shadow one client call",
+          "purpose": "Onboarding step: Shadow one client call"
+        },
+        {
+          "owner": "New Hire",
+          "task": "Review active pipeline",
+          "purpose": "Onboarding step: Review active pipeline"
+        },
+        {
+          "owner": "New Hire",
+          "task": "Prepare first account summary",
+          "purpose": "Onboarding step: Prepare first account summary"
+        }
+      ],
+      "day_30": [
+        {
+          "owner": "New Hire",
+          "task": "Manage first low-risk client interaction",
+          "purpose": "Onboarding step: Manage first low-risk client interaction"
+        },
+        {
+          "owner": "Manager",
+          "task": "Run 30-day onboarding check-in",
+          "purpose": "Assess progress"
+        }
+      ],
+      "day_60": [
+        {
+          "owner": "New Hire",
+          "task": "Own a small sales opportunity",
+          "purpose": "Onboarding step: Own a small sales opportunity"
+        },
+        {
+          "owner": "Manager",
+          "task": "Run 60-day progress review",
+          "purpose": "Assess autonomy"
+        }
+      ],
+      "day_90": [
+        {
+          "owner": "New Hire",
+          "task": "Independently manage a defined account segment",
+          "purpose": "Onboarding step: Independently manage a defined account segment"
+        },
+        {
+          "owner": "Manager",
+          "task": "Run 90-day onboarding review",
+          "purpose": "Final onboarding evaluation"
+        }
+      ]
+    },
+    "onboarding_tasks": [
+      {
+        "task_id": "TASK_001",
+        "phase": "day_1",
+        "owner": "IT",
+        "task": "Create access to: CRM, Email, Slack, Sales Dashboard",
+        "purpose": "Ensure system readiness",
+        "status": "completed",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_002",
+        "phase": "day_1",
+        "owner": "Manager",
+        "task": "Meet manager and buddy",
+        "purpose": "Onboarding step: Meet manager and buddy",
+        "status": "completed",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_003",
+        "phase": "day_1",
+        "owner": "IT",
+        "task": "Get access to CRM and sales tools",
+        "purpose": "Onboarding step: Get access to CRM and sales tools",
+        "status": "completed",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_004",
+        "phase": "day_1",
+        "owner": "New Hire",
+        "task": "Review sales process",
+        "purpose": "Onboarding step: Review sales process",
+        "status": "pending",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_005",
+        "phase": "week_1",
+        "owner": "Buddy",
+        "task": "Shadow one client call",
+        "purpose": "Onboarding step: Shadow one client call",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_006",
+        "phase": "week_1",
+        "owner": "New Hire",
+        "task": "Review active pipeline",
+        "purpose": "Onboarding step: Review active pipeline",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_007",
+        "phase": "week_1",
+        "owner": "New Hire",
+        "task": "Prepare first account summary",
+        "purpose": "Onboarding step: Prepare first account summary",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_008",
+        "phase": "day_30",
+        "owner": "New Hire",
+        "task": "Manage first low-risk client interaction",
+        "purpose": "Onboarding step: Manage first low-risk client interaction",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_009",
+        "phase": "day_30",
+        "owner": "Manager",
+        "task": "Run 30-day onboarding check-in",
+        "purpose": "Assess progress",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_010",
+        "phase": "day_60",
+        "owner": "New Hire",
+        "task": "Own a small sales opportunity",
+        "purpose": "Onboarding step: Own a small sales opportunity",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_011",
+        "phase": "day_60",
+        "owner": "Manager",
+        "task": "Run 60-day progress review",
+        "purpose": "Assess autonomy",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_012",
+        "phase": "day_90",
+        "owner": "New Hire",
+        "task": "Independently manage a defined account segment",
+        "purpose": "Onboarding step: Independently manage a defined account segment",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_013",
+        "phase": "day_90",
+        "owner": "Manager",
+        "task": "Run 90-day onboarding review",
+        "purpose": "Final onboarding evaluation",
+        "status": "pending",
+        "priority": "medium"
+      }
+    ],
+    "friction_report": {
+      "friction_count": 1,
+      "frictions": [
+        {
+          "type": "critical_tasks_pending",
+          "severity": "high",
+          "message": "1 high-priority Day 1 tasks are still pending."
+        }
+      ]
+    },
+    "progress_summary": {
+      "total_tasks": 13,
+      "completed_tasks": 3,
+      "pending_tasks": 10,
+      "completion_rate": 23.08,
+      "overall_status": "at_risk",
+      "design_risk_count": 0,
+      "execution_risk_count": 1,
+      "key_risks": [
+        {
+          "type": "critical_tasks_pending",
+          "severity": "high",
+          "message": "1 high-priority Day 1 tasks are still pending."
+        }
+      ],
+      "all_frictions": [
+        {
+          "type": "critical_tasks_pending",
+          "severity": "high",
+          "message": "1 high-priority Day 1 tasks are still pending."
+        }
+      ],
+      "recommended_next_action": "Resolve high-priority execution tasks before onboarding starts."
+    }
+  },
+  {
+    "employee_id": "3446",
+    "name": "Hector Dalton",
+    "role": "Area Sales Manager",
+    "department": "Sales",
+    "manager": "Sydney French",
+    "employee_type": "Part-Time",
+    "seniority": "senior",
+    "work_mode": "hybrid",
+    "profile_analysis": {
+      "employee_name": "Hector Dalton",
+      "role": "Area Sales Manager",
+      "department": "Sales",
+      "identified_needs": [
+        "Hybrid work expectations",
+        "Office coordination"
+      ],
+      "template_used": false
+    },
+    "onboarding_journey": {
+      "day_1": [
+        {
+          "owner": "IT",
+          "task": "Create access to: CRM, Email, Slack, Sales Dashboard",
+          "purpose": "Ensure system readiness"
+        },
+        {
+          "owner": "Manager",
+          "task": "Meet manager and buddy",
+          "purpose": "Onboarding step: Meet manager and buddy"
+        },
+        {
+          "owner": "IT",
+          "task": "Get access to CRM and sales tools",
+          "purpose": "Onboarding step: Get access to CRM and sales tools"
+        },
+        {
+          "owner": "New Hire",
+          "task": "Review sales process",
+          "purpose": "Onboarding step: Review sales process"
+        }
+      ],
+      "week_1": [
+        {
+          "owner": "Buddy",
+          "task": "Shadow one client call",
+          "purpose": "Onboarding step: Shadow one client call"
+        },
+        {
+          "owner": "New Hire",
+          "task": "Review active pipeline",
+          "purpose": "Onboarding step: Review active pipeline"
+        },
+        {
+          "owner": "New Hire",
+          "task": "Prepare first account summary",
+          "purpose": "Onboarding step: Prepare first account summary"
+        }
+      ],
+      "day_30": [
+        {
+          "owner": "New Hire",
+          "task": "Manage first low-risk client interaction",
+          "purpose": "Onboarding step: Manage first low-risk client interaction"
+        },
+        {
+          "owner": "Manager",
+          "task": "Run 30-day onboarding check-in",
+          "purpose": "Assess progress"
+        }
+      ],
+      "day_60": [
+        {
+          "owner": "New Hire",
+          "task": "Own a small sales opportunity",
+          "purpose": "Onboarding step: Own a small sales opportunity"
+        },
+        {
+          "owner": "Manager",
+          "task": "Run 60-day progress review",
+          "purpose": "Assess autonomy"
+        }
+      ],
+      "day_90": [
+        {
+          "owner": "New Hire",
+          "task": "Independently manage a defined account segment",
+          "purpose": "Onboarding step: Independently manage a defined account segment"
+        },
+        {
+          "owner": "Manager",
+          "task": "Run 90-day onboarding review",
+          "purpose": "Final onboarding evaluation"
+        }
+      ]
+    },
+    "onboarding_tasks": [
+      {
+        "task_id": "TASK_001",
+        "phase": "day_1",
+        "owner": "IT",
+        "task": "Create access to: CRM, Email, Slack, Sales Dashboard",
+        "purpose": "Ensure system readiness",
+        "status": "completed",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_002",
+        "phase": "day_1",
+        "owner": "Manager",
+        "task": "Meet manager and buddy",
+        "purpose": "Onboarding step: Meet manager and buddy",
+        "status": "completed",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_003",
+        "phase": "day_1",
+        "owner": "IT",
+        "task": "Get access to CRM and sales tools",
+        "purpose": "Onboarding step: Get access to CRM and sales tools",
+        "status": "completed",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_004",
+        "phase": "day_1",
+        "owner": "New Hire",
+        "task": "Review sales process",
+        "purpose": "Onboarding step: Review sales process",
+        "status": "pending",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_005",
+        "phase": "week_1",
+        "owner": "Buddy",
+        "task": "Shadow one client call",
+        "purpose": "Onboarding step: Shadow one client call",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_006",
+        "phase": "week_1",
+        "owner": "New Hire",
+        "task": "Review active pipeline",
+        "purpose": "Onboarding step: Review active pipeline",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_007",
+        "phase": "week_1",
+        "owner": "New Hire",
+        "task": "Prepare first account summary",
+        "purpose": "Onboarding step: Prepare first account summary",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_008",
+        "phase": "day_30",
+        "owner": "New Hire",
+        "task": "Manage first low-risk client interaction",
+        "purpose": "Onboarding step: Manage first low-risk client interaction",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_009",
+        "phase": "day_30",
+        "owner": "Manager",
+        "task": "Run 30-day onboarding check-in",
+        "purpose": "Assess progress",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_010",
+        "phase": "day_60",
+        "owner": "New Hire",
+        "task": "Own a small sales opportunity",
+        "purpose": "Onboarding step: Own a small sales opportunity",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_011",
+        "phase": "day_60",
+        "owner": "Manager",
+        "task": "Run 60-day progress review",
+        "purpose": "Assess autonomy",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_012",
+        "phase": "day_90",
+        "owner": "New Hire",
+        "task": "Independently manage a defined account segment",
+        "purpose": "Onboarding step: Independently manage a defined account segment",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_013",
+        "phase": "day_90",
+        "owner": "Manager",
+        "task": "Run 90-day onboarding review",
+        "purpose": "Final onboarding evaluation",
+        "status": "pending",
+        "priority": "medium"
+      }
+    ],
+    "friction_report": {
+      "friction_count": 1,
+      "frictions": [
+        {
+          "type": "critical_tasks_pending",
+          "severity": "high",
+          "message": "1 high-priority Day 1 tasks are still pending."
+        }
+      ]
+    },
+    "progress_summary": {
+      "total_tasks": 13,
+      "completed_tasks": 3,
+      "pending_tasks": 10,
+      "completion_rate": 23.08,
+      "overall_status": "at_risk",
+      "design_risk_count": 0,
+      "execution_risk_count": 1,
+      "key_risks": [
+        {
+          "type": "critical_tasks_pending",
+          "severity": "high",
+          "message": "1 high-priority Day 1 tasks are still pending."
+        }
+      ],
+      "all_frictions": [
+        {
+          "type": "critical_tasks_pending",
+          "severity": "high",
+          "message": "1 high-priority Day 1 tasks are still pending."
+        }
+      ],
+      "recommended_next_action": "Resolve high-priority execution tasks before onboarding starts."
+    }
+  },
+  {
+    "employee_id": "3450",
+    "name": "Reilly Moyer",
+    "role": "Area Sales Manager",
+    "department": "Sales",
+    "manager": "Stanley Harvey",
+    "employee_type": "Contract",
+    "seniority": "senior",
+    "work_mode": "hybrid",
+    "profile_analysis": {
+      "employee_name": "Reilly Moyer",
+      "role": "Area Sales Manager",
+      "department": "Sales",
+      "identified_needs": [
+        "Hybrid work expectations",
+        "Office coordination"
+      ],
+      "template_used": false
+    },
+    "onboarding_journey": {
+      "day_1": [
+        {
+          "owner": "IT",
+          "task": "Create access to: CRM, Email, Slack, Sales Dashboard",
+          "purpose": "Ensure system readiness"
+        },
+        {
+          "owner": "Manager",
+          "task": "Meet manager and buddy",
+          "purpose": "Onboarding step: Meet manager and buddy"
+        },
+        {
+          "owner": "IT",
+          "task": "Get access to CRM and sales tools",
+          "purpose": "Onboarding step: Get access to CRM and sales tools"
+        },
+        {
+          "owner": "New Hire",
+          "task": "Review sales process",
+          "purpose": "Onboarding step: Review sales process"
+        }
+      ],
+      "week_1": [
+        {
+          "owner": "Buddy",
+          "task": "Shadow one client call",
+          "purpose": "Onboarding step: Shadow one client call"
+        },
+        {
+          "owner": "New Hire",
+          "task": "Review active pipeline",
+          "purpose": "Onboarding step: Review active pipeline"
+        },
+        {
+          "owner": "New Hire",
+          "task": "Prepare first account summary",
+          "purpose": "Onboarding step: Prepare first account summary"
+        }
+      ],
+      "day_30": [
+        {
+          "owner": "New Hire",
+          "task": "Manage first low-risk client interaction",
+          "purpose": "Onboarding step: Manage first low-risk client interaction"
+        },
+        {
+          "owner": "Manager",
+          "task": "Run 30-day onboarding check-in",
+          "purpose": "Assess progress"
+        }
+      ],
+      "day_60": [
+        {
+          "owner": "New Hire",
+          "task": "Own a small sales opportunity",
+          "purpose": "Onboarding step: Own a small sales opportunity"
+        },
+        {
+          "owner": "Manager",
+          "task": "Run 60-day progress review",
+          "purpose": "Assess autonomy"
+        }
+      ],
+      "day_90": [
+        {
+          "owner": "New Hire",
+          "task": "Independently manage a defined account segment",
+          "purpose": "Onboarding step: Independently manage a defined account segment"
+        },
+        {
+          "owner": "Manager",
+          "task": "Run 90-day onboarding review",
+          "purpose": "Final onboarding evaluation"
+        }
+      ]
+    },
+    "onboarding_tasks": [
+      {
+        "task_id": "TASK_001",
+        "phase": "day_1",
+        "owner": "IT",
+        "task": "Create access to: CRM, Email, Slack, Sales Dashboard",
+        "purpose": "Ensure system readiness",
+        "status": "completed",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_002",
+        "phase": "day_1",
+        "owner": "Manager",
+        "task": "Meet manager and buddy",
+        "purpose": "Onboarding step: Meet manager and buddy",
+        "status": "completed",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_003",
+        "phase": "day_1",
+        "owner": "IT",
+        "task": "Get access to CRM and sales tools",
+        "purpose": "Onboarding step: Get access to CRM and sales tools",
+        "status": "completed",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_004",
+        "phase": "day_1",
+        "owner": "New Hire",
+        "task": "Review sales process",
+        "purpose": "Onboarding step: Review sales process",
+        "status": "pending",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_005",
+        "phase": "week_1",
+        "owner": "Buddy",
+        "task": "Shadow one client call",
+        "purpose": "Onboarding step: Shadow one client call",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_006",
+        "phase": "week_1",
+        "owner": "New Hire",
+        "task": "Review active pipeline",
+        "purpose": "Onboarding step: Review active pipeline",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_007",
+        "phase": "week_1",
+        "owner": "New Hire",
+        "task": "Prepare first account summary",
+        "purpose": "Onboarding step: Prepare first account summary",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_008",
+        "phase": "day_30",
+        "owner": "New Hire",
+        "task": "Manage first low-risk client interaction",
+        "purpose": "Onboarding step: Manage first low-risk client interaction",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_009",
+        "phase": "day_30",
+        "owner": "Manager",
+        "task": "Run 30-day onboarding check-in",
+        "purpose": "Assess progress",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_010",
+        "phase": "day_60",
+        "owner": "New Hire",
+        "task": "Own a small sales opportunity",
+        "purpose": "Onboarding step: Own a small sales opportunity",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_011",
+        "phase": "day_60",
+        "owner": "Manager",
+        "task": "Run 60-day progress review",
+        "purpose": "Assess autonomy",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_012",
+        "phase": "day_90",
+        "owner": "New Hire",
+        "task": "Independently manage a defined account segment",
+        "purpose": "Onboarding step: Independently manage a defined account segment",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_013",
+        "phase": "day_90",
+        "owner": "Manager",
+        "task": "Run 90-day onboarding review",
+        "purpose": "Final onboarding evaluation",
+        "status": "pending",
+        "priority": "medium"
+      }
+    ],
+    "friction_report": {
+      "friction_count": 1,
+      "frictions": [
+        {
+          "type": "critical_tasks_pending",
+          "severity": "high",
+          "message": "1 high-priority Day 1 tasks are still pending."
+        }
+      ]
+    },
+    "progress_summary": {
+      "total_tasks": 13,
+      "completed_tasks": 3,
+      "pending_tasks": 10,
+      "completion_rate": 23.08,
+      "overall_status": "at_risk",
+      "design_risk_count": 0,
+      "execution_risk_count": 1,
+      "key_risks": [
+        {
+          "type": "critical_tasks_pending",
+          "severity": "high",
+          "message": "1 high-priority Day 1 tasks are still pending."
+        }
+      ],
+      "all_frictions": [
+        {
+          "type": "critical_tasks_pending",
+          "severity": "high",
+          "message": "1 high-priority Day 1 tasks are still pending."
+        }
+      ],
+      "recommended_next_action": "Resolve high-priority execution tasks before onboarding starts."
+    }
+  },
+  {
+    "employee_id": "3451",
+    "name": "Carlee French",
+    "role": "Area Sales Manager",
+    "department": "Sales",
+    "manager": "Michael Bradshaw",
+    "employee_type": "Contract",
+    "seniority": "senior",
+    "work_mode": "hybrid",
+    "profile_analysis": {
+      "employee_name": "Carlee French",
+      "role": "Area Sales Manager",
+      "department": "Sales",
+      "identified_needs": [
+        "Hybrid work expectations",
+        "Office coordination"
+      ],
+      "template_used": false
+    },
+    "onboarding_journey": {
+      "day_1": [
+        {
+          "owner": "IT",
+          "task": "Create access to: CRM, Email, Slack, Sales Dashboard",
+          "purpose": "Ensure system readiness"
+        },
+        {
+          "owner": "Manager",
+          "task": "Meet manager and buddy",
+          "purpose": "Onboarding step: Meet manager and buddy"
+        },
+        {
+          "owner": "IT",
+          "task": "Get access to CRM and sales tools",
+          "purpose": "Onboarding step: Get access to CRM and sales tools"
+        },
+        {
+          "owner": "New Hire",
+          "task": "Review sales process",
+          "purpose": "Onboarding step: Review sales process"
+        }
+      ],
+      "week_1": [
+        {
+          "owner": "Buddy",
+          "task": "Shadow one client call",
+          "purpose": "Onboarding step: Shadow one client call"
+        },
+        {
+          "owner": "New Hire",
+          "task": "Review active pipeline",
+          "purpose": "Onboarding step: Review active pipeline"
+        },
+        {
+          "owner": "New Hire",
+          "task": "Prepare first account summary",
+          "purpose": "Onboarding step: Prepare first account summary"
+        }
+      ],
+      "day_30": [
+        {
+          "owner": "New Hire",
+          "task": "Manage first low-risk client interaction",
+          "purpose": "Onboarding step: Manage first low-risk client interaction"
+        },
+        {
+          "owner": "Manager",
+          "task": "Run 30-day onboarding check-in",
+          "purpose": "Assess progress"
+        }
+      ],
+      "day_60": [
+        {
+          "owner": "New Hire",
+          "task": "Own a small sales opportunity",
+          "purpose": "Onboarding step: Own a small sales opportunity"
+        },
+        {
+          "owner": "Manager",
+          "task": "Run 60-day progress review",
+          "purpose": "Assess autonomy"
+        }
+      ],
+      "day_90": [
+        {
+          "owner": "New Hire",
+          "task": "Independently manage a defined account segment",
+          "purpose": "Onboarding step: Independently manage a defined account segment"
+        },
+        {
+          "owner": "Manager",
+          "task": "Run 90-day onboarding review",
+          "purpose": "Final onboarding evaluation"
+        }
+      ]
+    },
+    "onboarding_tasks": [
+      {
+        "task_id": "TASK_001",
+        "phase": "day_1",
+        "owner": "IT",
+        "task": "Create access to: CRM, Email, Slack, Sales Dashboard",
+        "purpose": "Ensure system readiness",
+        "status": "completed",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_002",
+        "phase": "day_1",
+        "owner": "Manager",
+        "task": "Meet manager and buddy",
+        "purpose": "Onboarding step: Meet manager and buddy",
+        "status": "completed",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_003",
+        "phase": "day_1",
+        "owner": "IT",
+        "task": "Get access to CRM and sales tools",
+        "purpose": "Onboarding step: Get access to CRM and sales tools",
+        "status": "completed",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_004",
+        "phase": "day_1",
+        "owner": "New Hire",
+        "task": "Review sales process",
+        "purpose": "Onboarding step: Review sales process",
+        "status": "pending",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_005",
+        "phase": "week_1",
+        "owner": "Buddy",
+        "task": "Shadow one client call",
+        "purpose": "Onboarding step: Shadow one client call",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_006",
+        "phase": "week_1",
+        "owner": "New Hire",
+        "task": "Review active pipeline",
+        "purpose": "Onboarding step: Review active pipeline",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_007",
+        "phase": "week_1",
+        "owner": "New Hire",
+        "task": "Prepare first account summary",
+        "purpose": "Onboarding step: Prepare first account summary",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_008",
+        "phase": "day_30",
+        "owner": "New Hire",
+        "task": "Manage first low-risk client interaction",
+        "purpose": "Onboarding step: Manage first low-risk client interaction",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_009",
+        "phase": "day_30",
+        "owner": "Manager",
+        "task": "Run 30-day onboarding check-in",
+        "purpose": "Assess progress",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_010",
+        "phase": "day_60",
+        "owner": "New Hire",
+        "task": "Own a small sales opportunity",
+        "purpose": "Onboarding step: Own a small sales opportunity",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_011",
+        "phase": "day_60",
+        "owner": "Manager",
+        "task": "Run 60-day progress review",
+        "purpose": "Assess autonomy",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_012",
+        "phase": "day_90",
+        "owner": "New Hire",
+        "task": "Independently manage a defined account segment",
+        "purpose": "Onboarding step: Independently manage a defined account segment",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_013",
+        "phase": "day_90",
+        "owner": "Manager",
+        "task": "Run 90-day onboarding review",
+        "purpose": "Final onboarding evaluation",
+        "status": "pending",
+        "priority": "medium"
+      }
+    ],
+    "friction_report": {
+      "friction_count": 1,
+      "frictions": [
+        {
+          "type": "critical_tasks_pending",
+          "severity": "high",
+          "message": "1 high-priority Day 1 tasks are still pending."
+        }
+      ]
+    },
+    "progress_summary": {
+      "total_tasks": 13,
+      "completed_tasks": 3,
+      "pending_tasks": 10,
+      "completion_rate": 23.08,
+      "overall_status": "at_risk",
+      "design_risk_count": 0,
+      "execution_risk_count": 1,
+      "key_risks": [
+        {
+          "type": "critical_tasks_pending",
+          "severity": "high",
+          "message": "1 high-priority Day 1 tasks are still pending."
+        }
+      ],
+      "all_frictions": [
+        {
+          "type": "critical_tasks_pending",
+          "severity": "high",
+          "message": "1 high-priority Day 1 tasks are still pending."
+        }
+      ],
+      "recommended_next_action": "Resolve high-priority execution tasks before onboarding starts."
+    }
+  },
+  {
+    "employee_id": "3452",
+    "name": "Jaydon Blackburn",
+    "role": "Area Sales Manager",
+    "department": "Sales",
+    "manager": "Debbie Crosby",
+    "employee_type": "Part-Time",
+    "seniority": "senior",
+    "work_mode": "hybrid",
+    "profile_analysis": {
+      "employee_name": "Jaydon Blackburn",
+      "role": "Area Sales Manager",
+      "department": "Sales",
+      "identified_needs": [
+        "Hybrid work expectations",
+        "Office coordination"
+      ],
+      "template_used": false
+    },
+    "onboarding_journey": {
+      "day_1": [
+        {
+          "owner": "IT",
+          "task": "Create access to: CRM, Email, Slack, Sales Dashboard",
+          "purpose": "Ensure system readiness"
+        },
+        {
+          "owner": "Manager",
+          "task": "Meet manager and buddy",
+          "purpose": "Onboarding step: Meet manager and buddy"
+        },
+        {
+          "owner": "IT",
+          "task": "Get access to CRM and sales tools",
+          "purpose": "Onboarding step: Get access to CRM and sales tools"
+        },
+        {
+          "owner": "New Hire",
+          "task": "Review sales process",
+          "purpose": "Onboarding step: Review sales process"
+        }
+      ],
+      "week_1": [
+        {
+          "owner": "Buddy",
+          "task": "Shadow one client call",
+          "purpose": "Onboarding step: Shadow one client call"
+        },
+        {
+          "owner": "New Hire",
+          "task": "Review active pipeline",
+          "purpose": "Onboarding step: Review active pipeline"
+        },
+        {
+          "owner": "New Hire",
+          "task": "Prepare first account summary",
+          "purpose": "Onboarding step: Prepare first account summary"
+        }
+      ],
+      "day_30": [
+        {
+          "owner": "New Hire",
+          "task": "Manage first low-risk client interaction",
+          "purpose": "Onboarding step: Manage first low-risk client interaction"
+        },
+        {
+          "owner": "Manager",
+          "task": "Run 30-day onboarding check-in",
+          "purpose": "Assess progress"
+        }
+      ],
+      "day_60": [
+        {
+          "owner": "New Hire",
+          "task": "Own a small sales opportunity",
+          "purpose": "Onboarding step: Own a small sales opportunity"
+        },
+        {
+          "owner": "Manager",
+          "task": "Run 60-day progress review",
+          "purpose": "Assess autonomy"
+        }
+      ],
+      "day_90": [
+        {
+          "owner": "New Hire",
+          "task": "Independently manage a defined account segment",
+          "purpose": "Onboarding step: Independently manage a defined account segment"
+        },
+        {
+          "owner": "Manager",
+          "task": "Run 90-day onboarding review",
+          "purpose": "Final onboarding evaluation"
+        }
+      ]
+    },
+    "onboarding_tasks": [
+      {
+        "task_id": "TASK_001",
+        "phase": "day_1",
+        "owner": "IT",
+        "task": "Create access to: CRM, Email, Slack, Sales Dashboard",
+        "purpose": "Ensure system readiness",
+        "status": "completed",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_002",
+        "phase": "day_1",
+        "owner": "Manager",
+        "task": "Meet manager and buddy",
+        "purpose": "Onboarding step: Meet manager and buddy",
+        "status": "completed",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_003",
+        "phase": "day_1",
+        "owner": "IT",
+        "task": "Get access to CRM and sales tools",
+        "purpose": "Onboarding step: Get access to CRM and sales tools",
+        "status": "completed",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_004",
+        "phase": "day_1",
+        "owner": "New Hire",
+        "task": "Review sales process",
+        "purpose": "Onboarding step: Review sales process",
+        "status": "pending",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_005",
+        "phase": "week_1",
+        "owner": "Buddy",
+        "task": "Shadow one client call",
+        "purpose": "Onboarding step: Shadow one client call",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_006",
+        "phase": "week_1",
+        "owner": "New Hire",
+        "task": "Review active pipeline",
+        "purpose": "Onboarding step: Review active pipeline",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_007",
+        "phase": "week_1",
+        "owner": "New Hire",
+        "task": "Prepare first account summary",
+        "purpose": "Onboarding step: Prepare first account summary",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_008",
+        "phase": "day_30",
+        "owner": "New Hire",
+        "task": "Manage first low-risk client interaction",
+        "purpose": "Onboarding step: Manage first low-risk client interaction",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_009",
+        "phase": "day_30",
+        "owner": "Manager",
+        "task": "Run 30-day onboarding check-in",
+        "purpose": "Assess progress",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_010",
+        "phase": "day_60",
+        "owner": "New Hire",
+        "task": "Own a small sales opportunity",
+        "purpose": "Onboarding step: Own a small sales opportunity",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_011",
+        "phase": "day_60",
+        "owner": "Manager",
+        "task": "Run 60-day progress review",
+        "purpose": "Assess autonomy",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_012",
+        "phase": "day_90",
+        "owner": "New Hire",
+        "task": "Independently manage a defined account segment",
+        "purpose": "Onboarding step: Independently manage a defined account segment",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_013",
+        "phase": "day_90",
+        "owner": "Manager",
+        "task": "Run 90-day onboarding review",
+        "purpose": "Final onboarding evaluation",
+        "status": "pending",
+        "priority": "medium"
+      }
+    ],
+    "friction_report": {
+      "friction_count": 1,
+      "frictions": [
+        {
+          "type": "critical_tasks_pending",
+          "severity": "high",
+          "message": "1 high-priority Day 1 tasks are still pending."
+        }
+      ]
+    },
+    "progress_summary": {
+      "total_tasks": 13,
+      "completed_tasks": 3,
+      "pending_tasks": 10,
+      "completion_rate": 23.08,
+      "overall_status": "at_risk",
+      "design_risk_count": 0,
+      "execution_risk_count": 1,
+      "key_risks": [
+        {
+          "type": "critical_tasks_pending",
+          "severity": "high",
+          "message": "1 high-priority Day 1 tasks are still pending."
+        }
+      ],
+      "all_frictions": [
+        {
+          "type": "critical_tasks_pending",
+          "severity": "high",
+          "message": "1 high-priority Day 1 tasks are still pending."
+        }
+      ],
+      "recommended_next_action": "Resolve high-priority execution tasks before onboarding starts."
+    }
+  },
+  {
+    "employee_id": "3453",
+    "name": "Bridger Carter",
+    "role": "Area Sales Manager",
+    "department": "Sales",
+    "manager": "Elizabeth Taylor",
+    "employee_type": "Contract",
+    "seniority": "senior",
+    "work_mode": "hybrid",
+    "profile_analysis": {
+      "employee_name": "Bridger Carter",
+      "role": "Area Sales Manager",
+      "department": "Sales",
+      "identified_needs": [
+        "Hybrid work expectations",
+        "Office coordination"
+      ],
+      "template_used": false
+    },
+    "onboarding_journey": {
+      "day_1": [
+        {
+          "owner": "IT",
+          "task": "Create access to: CRM, Email, Slack, Sales Dashboard",
+          "purpose": "Ensure system readiness"
+        },
+        {
+          "owner": "Manager",
+          "task": "Meet manager and buddy",
+          "purpose": "Onboarding step: Meet manager and buddy"
+        },
+        {
+          "owner": "IT",
+          "task": "Get access to CRM and sales tools",
+          "purpose": "Onboarding step: Get access to CRM and sales tools"
+        },
+        {
+          "owner": "New Hire",
+          "task": "Review sales process",
+          "purpose": "Onboarding step: Review sales process"
+        }
+      ],
+      "week_1": [
+        {
+          "owner": "Buddy",
+          "task": "Shadow one client call",
+          "purpose": "Onboarding step: Shadow one client call"
+        },
+        {
+          "owner": "New Hire",
+          "task": "Review active pipeline",
+          "purpose": "Onboarding step: Review active pipeline"
+        },
+        {
+          "owner": "New Hire",
+          "task": "Prepare first account summary",
+          "purpose": "Onboarding step: Prepare first account summary"
+        }
+      ],
+      "day_30": [
+        {
+          "owner": "New Hire",
+          "task": "Manage first low-risk client interaction",
+          "purpose": "Onboarding step: Manage first low-risk client interaction"
+        },
+        {
+          "owner": "Manager",
+          "task": "Run 30-day onboarding check-in",
+          "purpose": "Assess progress"
+        }
+      ],
+      "day_60": [
+        {
+          "owner": "New Hire",
+          "task": "Own a small sales opportunity",
+          "purpose": "Onboarding step: Own a small sales opportunity"
+        },
+        {
+          "owner": "Manager",
+          "task": "Run 60-day progress review",
+          "purpose": "Assess autonomy"
+        }
+      ],
+      "day_90": [
+        {
+          "owner": "New Hire",
+          "task": "Independently manage a defined account segment",
+          "purpose": "Onboarding step: Independently manage a defined account segment"
+        },
+        {
+          "owner": "Manager",
+          "task": "Run 90-day onboarding review",
+          "purpose": "Final onboarding evaluation"
+        }
+      ]
+    },
+    "onboarding_tasks": [
+      {
+        "task_id": "TASK_001",
+        "phase": "day_1",
+        "owner": "IT",
+        "task": "Create access to: CRM, Email, Slack, Sales Dashboard",
+        "purpose": "Ensure system readiness",
+        "status": "completed",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_002",
+        "phase": "day_1",
+        "owner": "Manager",
+        "task": "Meet manager and buddy",
+        "purpose": "Onboarding step: Meet manager and buddy",
+        "status": "completed",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_003",
+        "phase": "day_1",
+        "owner": "IT",
+        "task": "Get access to CRM and sales tools",
+        "purpose": "Onboarding step: Get access to CRM and sales tools",
+        "status": "completed",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_004",
+        "phase": "day_1",
+        "owner": "New Hire",
+        "task": "Review sales process",
+        "purpose": "Onboarding step: Review sales process",
+        "status": "pending",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_005",
+        "phase": "week_1",
+        "owner": "Buddy",
+        "task": "Shadow one client call",
+        "purpose": "Onboarding step: Shadow one client call",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_006",
+        "phase": "week_1",
+        "owner": "New Hire",
+        "task": "Review active pipeline",
+        "purpose": "Onboarding step: Review active pipeline",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_007",
+        "phase": "week_1",
+        "owner": "New Hire",
+        "task": "Prepare first account summary",
+        "purpose": "Onboarding step: Prepare first account summary",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_008",
+        "phase": "day_30",
+        "owner": "New Hire",
+        "task": "Manage first low-risk client interaction",
+        "purpose": "Onboarding step: Manage first low-risk client interaction",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_009",
+        "phase": "day_30",
+        "owner": "Manager",
+        "task": "Run 30-day onboarding check-in",
+        "purpose": "Assess progress",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_010",
+        "phase": "day_60",
+        "owner": "New Hire",
+        "task": "Own a small sales opportunity",
+        "purpose": "Onboarding step: Own a small sales opportunity",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_011",
+        "phase": "day_60",
+        "owner": "Manager",
+        "task": "Run 60-day progress review",
+        "purpose": "Assess autonomy",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_012",
+        "phase": "day_90",
+        "owner": "New Hire",
+        "task": "Independently manage a defined account segment",
+        "purpose": "Onboarding step: Independently manage a defined account segment",
+        "status": "pending",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_013",
+        "phase": "day_90",
+        "owner": "Manager",
+        "task": "Run 90-day onboarding review",
+        "purpose": "Final onboarding evaluation",
+        "status": "pending",
+        "priority": "medium"
+      }
+    ],
+    "friction_report": {
+      "friction_count": 1,
+      "frictions": [
+        {
+          "type": "critical_tasks_pending",
+          "severity": "high",
+          "message": "1 high-priority Day 1 tasks are still pending."
+        }
+      ]
+    },
+    "progress_summary": {
+      "total_tasks": 13,
+      "completed_tasks": 3,
+      "pending_tasks": 10,
+      "completion_rate": 23.08,
+      "overall_status": "at_risk",
+      "design_risk_count": 0,
+      "execution_risk_count": 1,
+      "key_risks": [
+        {
+          "type": "critical_tasks_pending",
+          "severity": "high",
+          "message": "1 high-priority Day 1 tasks are still pending."
+        }
+      ],
+      "all_frictions": [
+        {
+          "type": "critical_tasks_pending",
+          "severity": "high",
+          "message": "1 high-priority Day 1 tasks are still pending."
+        }
+      ],
+      "recommended_next_action": "Resolve high-priority execution tasks before onboarding starts."
+    }
+  },
+  {
+    "employee_id": "3454",
+    "name": "Leon Beard",
+    "role": "Area Sales Manager",
+    "department": "IT/IS",
+    "manager": "Brian Dunlap",
+    "employee_type": "Full-Time",
+    "seniority": "senior",
+    "work_mode": "hybrid",
+    "profile_analysis": {
+      "employee_name": "Leon Beard",
+      "role": "Area Sales Manager",
+      "department": "IT/IS",
+      "identified_needs": [
+        "Hybrid work expectations",
+        "Office coordination"
+      ],
+      "template_used": false
+    },
+    "onboarding_journey": {
+      "day_1": [
+        {
+          "owner": "IT",
+          "task": "Create access to: VPN, Jira, GitHub, Monitoring Tool, Slack",
+          "purpose": "Ensure system readiness"
+        }
+      ],
+      "week_1": [],
+      "day_30": [
+        {
+          "owner": "Manager",
+          "task": "Run 30-day onboarding check-in",
+          "purpose": "Assess progress"
+        }
+      ],
+      "day_60": [
+        {
+          "owner": "Manager",
+          "task": "Run 60-day progress review",
+          "purpose": "Assess autonomy"
+        }
+      ],
+      "day_90": [
+        {
+          "owner": "Manager",
+          "task": "Run 90-day onboarding review",
+          "purpose": "Final onboarding evaluation"
+        }
+      ]
+    },
+    "onboarding_tasks": [
+      {
+        "task_id": "TASK_001",
+        "phase": "day_1",
+        "owner": "IT",
+        "task": "Create access to: VPN, Jira, GitHub, Monitoring Tool, Slack",
+        "purpose": "Ensure system readiness",
+        "status": "completed",
+        "priority": "high"
+      },
+      {
+        "task_id": "TASK_002",
+        "phase": "day_30",
+        "owner": "Manager",
+        "task": "Run 30-day onboarding check-in",
+        "purpose": "Assess progress",
+        "status": "completed",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_003",
+        "phase": "day_60",
+        "owner": "Manager",
+        "task": "Run 60-day progress review",
+        "purpose": "Assess autonomy",
+        "status": "completed",
+        "priority": "medium"
+      },
+      {
+        "task_id": "TASK_004",
+        "phase": "day_90",
+        "owner": "Manager",
+        "task": "Run 90-day onboarding review",
+        "purpose": "Final onboarding evaluation",
+        "status": "pending",
+        "priority": "medium"
+      }
+    ],
+    "friction_report": {
+      "friction_count": 1,
+      "frictions": [
+        {
+          "type": "missing_buddy_support",
+          "severity": "medium",
+          "message": "No buddy-related task was found."
+        }
+      ]
+    },
+    "progress_summary": {
+      "total_tasks": 4,
+      "completed_tasks": 3,
+      "pending_tasks": 1,
+      "completion_rate": 75.0,
+      "overall_status": "in_progress",
+      "design_risk_count": 1,
+      "execution_risk_count": 0,
+      "key_risks": [],
+      "all_frictions": [
+        {
+          "type": "missing_buddy_support",
+          "severity": "medium",
+          "message": "No buddy-related task was found."
+        }
+      ],
+      "recommended_next_action": "Fix onboarding design gaps before evaluating execution progress."
+    }
+  }
+]
