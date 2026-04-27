@@ -1,8 +1,12 @@
 * {
+  font-family: "Manrope", system-ui, sans-serif !important;
+}
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Inter, system-ui, sans-serif;
+  font-family: "Manrope", system-ui, sans-serif;
 }
 
 .app {
@@ -1002,4 +1006,248 @@
   max-height: 260px;
   overflow-y: auto;
   padding-right: 6px;
+}
+
+@media (max-width: 900px) {
+  .app {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    min-width: 100%;
+    min-height: auto;
+    padding: 20px;
+    border-right: none;
+    border-bottom: 1px solid #e5e7eb;
+  }
+
+  .main {
+    width: 100%;
+    padding: 24px 16px;
+  }
+
+  .topbar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .topbar-actions {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .header h1 {
+    font-size: 32px;
+    line-height: 1.1;
+  }
+
+  .header p {
+    font-size: 16px;
+  }
+
+  .content h2 {
+    font-size: 26px;
+    line-height: 1.15;
+  }
+
+  .kpi-grid,
+  .insights-grid,
+  .diagnosis-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .section-title {
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .department-chart-card,
+  .employee-detail-card,
+  .employee-table-card {
+    width: 100%;
+  }
+
+  .employee-detail-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .employee-table-card {
+    overflow-x: auto;
+  }
+
+  .employee-table-card table {
+    min-width: 760px;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .app {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .main {
+    padding: 20px 14px;
+  }
+
+  .content {
+    width: 100%;
+  }
+
+  .header h1 {
+    font-size: 38px;
+    line-height: 1.05;
+  }
+
+  .content h2 {
+    font-size: 34px;
+    line-height: 1.08;
+  }
+
+  .section-title {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+  }
+
+  .section-title a,
+  .section-title button {
+    font-size: 18px;
+  }
+
+  .kpi-card,
+  .insight-card,
+  .department-chart-card,
+  .diagnosis-card,
+  .employee-detail-card,
+  .employee-table-card {
+    padding: 26px;
+    border-radius: 24px;
+  }
+
+  .kpi-top,
+  .insight-top {
+    align-items: center;
+  }
+
+  .employee-table-card {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .employee-table-card table {
+    min-width: 900px;
+  }
+
+  .employee-table-card th,
+  .employee-table-card td {
+    white-space: nowrap;
+  }
+}
+
+@media (max-width: 600px) {
+  .sidebar {
+    padding: 18px 16px;
+    border-bottom: 1px solid #e5e7eb;
+  }
+
+  .sidebar-logo,
+  .sidebar hr,
+  .sidebar-header {
+    display: none;
+  }
+
+  .sidebar h3,
+  .sidebar p {
+    display: none;
+  }
+
+  .filters {
+    display: grid;
+    gap: 12px;
+  }
+
+  .filter-group label {
+    font-size: 14px;
+  }
+
+  .filter-actions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
+  .filter-actions button {
+    padding: 12px;
+    font-size: 14px;
+  }
+}
+
+.mobile-filter-toggle {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .sidebar {
+    padding: 16px;
+    min-height: auto;
+  }
+
+  .brand {
+    display: none;
+  }
+
+  .mobile-filter-toggle {
+    display: block;
+    width: 100%;
+    border: none;
+    border-radius: 14px;
+    background: #4f46e5;
+    color: white;
+    padding: 14px;
+    font-weight: 800;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .sidebar-content {
+    display: none;
+  }
+
+  .sidebar-content.open {
+    display: block;
+    margin-top: 16px;
+  }
+}
+
+@media (max-width: 600px) {
+  .profile-menu,
+  .user-menu,
+  .dropdown-menu {
+    left: 16px !important;
+    right: 16px !important;
+    width: auto !important;
+    max-width: calc(100vw - 32px);
+  }
+
+  .topbar {
+    overflow: visible;
+  }
+}
+
+.kpi-card {
+  cursor: pointer;
+}
+
+.kpi-icon svg {
+  width: 24px;
+  height: 24px;
+  stroke-width: 2.4;
 }

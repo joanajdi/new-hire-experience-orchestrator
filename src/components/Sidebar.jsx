@@ -1,3 +1,6 @@
+import { useState } from "react"
+import { Users } from "lucide-react"
+
 function Sidebar({
   departments,
   selectedDepartment,
@@ -8,80 +11,90 @@ function Sidebar({
   selectedManager,
   setSelectedManager
 }) {
+  const [showMobileFilters, setShowMobileFilters] = useState(false)
 
   return (
     <aside className="sidebar">
       <div className="brand">
-        <div className="brand-icon">👥</div>
+        <div className="brand-icon">
+  <Users size={22} />
+</div>
         <strong>NHEO</strong>
       </div>
 
-      <div className="filter-section">
-        <h3>Filters</h3>
-        <p>Refine onboarding data</p>
-      </div>
+      <button
+        className="mobile-filter-toggle"
+        onClick={() => setShowMobileFilters(!showMobileFilters)}
+      >
+        {showMobileFilters ? "Hide filters" : "Show filters"}
+      </button>
 
-      <div className="filter-group">
-        <div className="filter-title">Department</div>
+      <div className={`sidebar-content ${showMobileFilters ? "open" : ""}`}>
+        <div className="filter-section">
+          <h3>Filters</h3>
+          <p>Refine onboarding data</p>
+        </div>
 
-        <select
-          className="filter-select"
-          value={selectedDepartment}
-          onChange={(event) => setSelectedDepartment(event.target.value)}
-        >
-          {departments.map((department) => (
-            <option key={department} value={department}>
-              {department}
-            </option>
-          ))}
-        </select>
-      </div>
+        <div className="filter-group">
+          <div className="filter-title">Department</div>
 
-<div className="filter-group">
-  <div className="filter-title">Status</div>
+          <select
+            className="filter-select"
+            value={selectedDepartment}
+            onChange={(event) => setSelectedDepartment(event.target.value)}
+          >
+            {departments.map((department) => (
+              <option key={department} value={department}>
+                {department}
+              </option>
+            ))}
+          </select>
+        </div>
 
-  <select
-    className="filter-select"
-    value={selectedStatus}
-    onChange={(event) => setSelectedStatus(event.target.value)}
-  >
-    <option value="All">All</option>
-    <option value="at_risk">At Risk</option>
-    <option value="in_progress">In Progress</option>
-    <option value="completed">Completed</option>
-  </select>
-</div>
+        <div className="filter-group">
+          <div className="filter-title">Status</div>
 
-<div className="filter-group">
-  <div className="filter-title">Manager</div>
+          <select
+            className="filter-select"
+            value={selectedStatus}
+            onChange={(event) => setSelectedStatus(event.target.value)}
+          >
+            <option value="All">All</option>
+            <option value="at_risk">At Risk</option>
+            <option value="in_progress">In Progress</option>
+            <option value="completed">Completed</option>
+          </select>
+        </div>
 
-  <select
-    className="filter-select"
-    value={selectedManager}
-    onChange={(event) => setSelectedManager(event.target.value)}
-  >
-    {managers.map((manager) => (
-      <option key={manager} value={manager}>
-        {manager}
-      </option>
-    ))}
-  </select>
-</div>
+        <div className="filter-group">
+          <div className="filter-title">Manager</div>
 
+          <select
+            className="filter-select"
+            value={selectedManager}
+            onChange={(event) => setSelectedManager(event.target.value)}
+          >
+            {managers.map((manager) => (
+              <option key={manager} value={manager}>
+                {manager}
+              </option>
+            ))}
+          </select>
+        </div>
 
-      <div className="sidebar-actions">
+        <div className="sidebar-actions">
+          <button
+            onClick={() => {
+              setSelectedDepartment("All")
+              setSelectedStatus("All")
+              setSelectedManager("All")
+            }}
+          >
+            Reset filters
+          </button>
 
-<button
-  onClick={() => {
-    setSelectedDepartment("All")
-    setSelectedStatus("All")
-    setSelectedManager("All")
-  }}
->
-  Reset filters
-</button> 
-
-<button className="primary">Save view</button>
+          <button className="primary">Save view</button>
+        </div>
       </div>
     </aside>
   )

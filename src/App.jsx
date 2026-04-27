@@ -120,7 +120,6 @@ const topDepartment =
     completed
   }}
   setSelectedStatus={setSelectedStatus}
-  selectedStatus={selectedStatus}
 />
 
           <SectionTitle title="Company Insights" linkText="View all insights" />

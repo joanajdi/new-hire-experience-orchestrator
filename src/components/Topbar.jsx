@@ -1,4 +1,5 @@
 import { useState } from "react"
+import { Calendar, Bell } from "lucide-react"
 
 function Topbar() {
   const [profileOpen, setProfileOpen] = useState(false)
@@ -32,7 +33,7 @@ const formattedRange = `${formatDate(startDate)} – ${formatDate(today)}, ${tod
       setProfileOpen(false)
     }}
   >
-📅 Last 30 days ({formattedRange})
+<Calendar size={18} />
   </button>
 
   {calendarOpen && (
@@ -55,7 +56,7 @@ const formattedRange = `${formatDate(startDate)} – ${formatDate(today)}, ${tod
     setProfileOpen(false)
   }}
 >
-  🔔
+<Bell size={18} />
 </button>
 
           {notificationsOpen && (
