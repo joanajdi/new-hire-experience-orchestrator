@@ -1,16 +1,83 @@
-# React + Vite
+# New Hire Experience Orchestrator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An analytics-driven onboarding dashboard designed to identify risk, diagnose friction, and support decision-making in employee onboarding.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🎯 Problem
 
-## React Compiler
+Most organizations struggle to answer:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Who is at risk during onboarding?
+- Why are they struggling?
+- What actions should managers take?
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 💡 Solution
+
+This project combines data analysis and product thinking to transform onboarding into a measurable and actionable process.
+
+---
+
+## 🔍 Features
+
+- Employee risk classification (At Risk / In Progress / Completed)
+- Friction detection and categorization
+- Department-level risk insights
+- Actionable recommendations for managers
+- Interactive employee-level analysis
+
+---
+
+## 🧠 Project Structure
+
+### 📊 Data & Analytics Layer (Python / Streamlit)
+- Risk calculation logic
+- Friction analysis
+- Data exploration
+
+### 🖥️ Product Layer (React Dashboard)
+- Interactive UI
+- KPI visualization
+- Employee drill-down analysis
+
+---
+
+## 🛠️ Tech Stack
+
+- React
+- JavaScript
+- Python
+- Streamlit
+- JSON
+
+---
+
+## 🚀 What This Project Demonstrates
+
+- Data-driven decision making
+- HR Analytics thinking
+- Product mindset
+- Ability to connect data → insights → action
+
+---
+
+## 📸 Screenshots
+
+<img width="2874" height="1436" alt="image" src="https://github.com/user-attachments/assets/7340a26d-62f4-4a7e-a9af-51565604d21e" />
+<img width="2880" height="1298" alt="image" src="https://github.com/user-attachments/assets/93dd0c43-91d9-4f20-9534-9c60f285646e" />
+
+---
+
+## 📌 Future Improvements
+
+- Predictive risk modeling
+- Integration with real HR systems
+- AI-driven recommendations
+
+---
+
+## 👤 Author
+
+Joana Inácio
