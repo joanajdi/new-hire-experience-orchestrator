@@ -1,4 +1,3 @@
-import { useState } from "react"
 import { Users } from "lucide-react"
 
 function Sidebar({
@@ -9,27 +8,20 @@ function Sidebar({
   setSelectedStatus,
   managers,
   selectedManager,
-  setSelectedManager
+  setSelectedManager,
+  showMobileFilters,
+  setShowMobileFilters
 }) {
-  const [showMobileFilters, setShowMobileFilters] = useState(false)
-
   return (
-    <aside className="sidebar">
+    <aside className={`sidebar ${showMobileFilters ? "open" : ""}`}>
       <div className="brand">
         <div className="brand-icon">
-  <Users size={22} />
-</div>
+          <Users size={22} />
+        </div>
         <strong>NHEO</strong>
       </div>
 
-      <button
-        className="mobile-filter-toggle"
-        onClick={() => setShowMobileFilters(!showMobileFilters)}
-      >
-        {showMobileFilters ? "Hide filters" : "Show filters"}
-      </button>
-
-      <div className={`sidebar-content ${showMobileFilters ? "open" : ""}`}>
+      <div className="sidebar-content">
         <div className="filter-section">
           <h3>Filters</h3>
           <p>Refine onboarding data</p>
@@ -88,6 +80,7 @@ function Sidebar({
               setSelectedDepartment("All")
               setSelectedStatus("All")
               setSelectedManager("All")
+              setShowMobileFilters(false)
             }}
           >
             Reset filters
