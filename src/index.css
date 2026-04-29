@@ -1,5 +1,6 @@
 :root {
-  font-family: Inter, system-ui, sans-serif;
+  --app-font: "Montserrat", system-ui, sans-serif;
+  font-family: var(--app-font);
   color: #0F172A;
   background: #F7F8FA;
 }
@@ -15,4 +16,11 @@ body,
 body {
   min-width: 320px;
   background: #F7F8FA;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
 }

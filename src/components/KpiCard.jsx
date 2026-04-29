@@ -1,6 +1,6 @@
-function KpiCard({ icon, title, value, subtitle, color, onClick }) {
+function KpiCard({ icon, title, value, subtitle, color }) {
   return (
-    <div className="kpi-card" onClick={onClick}>
+    <div className="kpi-card">
       <div className="kpi-top">
         <div className={`kpi-icon ${color}`}>
           {icon}

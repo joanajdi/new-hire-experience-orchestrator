@@ -1,7 +1,7 @@
 import KpiCard from "./KpiCard"
 import { Users, AlertTriangle, Loader, CheckCircle } from "lucide-react"
 
-function KpiGrid({ data, setSelectedStatus }) {
+function KpiGrid({ data }) {
   return (
     <div className="kpi-grid">
       <KpiCard
@@ -10,7 +10,6 @@ function KpiGrid({ data, setSelectedStatus }) {
         value={data.totalEmployees}
         subtitle="Filtered portfolio"
         color="blue"
-        onClick={() => setSelectedStatus("All")}
       />
 
       <KpiCard
@@ -19,7 +18,6 @@ function KpiGrid({ data, setSelectedStatus }) {
         value={data.atRisk}
         subtitle="Needs attention"
         color="red"
-        onClick={() => setSelectedStatus("at_risk")}
       />
 
       <KpiCard
@@ -28,7 +26,6 @@ function KpiGrid({ data, setSelectedStatus }) {
         value={data.inProgress}
         subtitle="Active journeys"
         color="yellow"
-        onClick={() => setSelectedStatus("in_progress")}
       />
 
       <KpiCard
@@ -37,7 +34,6 @@ function KpiGrid({ data, setSelectedStatus }) {
         value={data.completed}
         subtitle="Fully onboarded"
         color="green"
-        onClick={() => setSelectedStatus("completed")}
       />
     </div>
   )

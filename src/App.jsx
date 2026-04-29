@@ -1,4 +1,5 @@
-import { useState } from "react"
+import { useEffect, useRef, useState } from "react"
+import { Filter, Menu, X } from "lucide-react"
 import "./App.css"
 import Sidebar from "./components/Sidebar"
 import Header from "./components/Header"
@@ -13,11 +14,14 @@ import EmployeeDetail from "./components/EmployeeDetail"
 import DepartmentChart from "./components/DepartmentChart"
 
 function App() {
+  const [activePage, setActivePage] = useState("overview")
   const [selectedDepartment, setSelectedDepartment] = useState("All")
   const [selectedStatus, setSelectedStatus] = useState("All")
   const [selectedManager, setSelectedManager] = useState("All")
   const [selectedEmployee, setSelectedEmployee] = useState(null)
-  const [showMobileFilters, setShowMobileFilters] = useState(false)
+  const [showMobileNav, setShowMobileNav] = useState(false)
+  const [showFilters, setShowFilters] = useState(false)
+  const portfolioRef = useRef(null)
 
   const departments = [
     "All",
@@ -92,87 +96,227 @@ function App() {
         )
       : "N/A"
 
+  const pageCopy = {
+    overview: {
+      title: "New Hire Experience Orchestrator",
+      subtitle: "Company-wide onboarding KPIs, trends and portfolio health"
+    },
+    portfolio: {
+      title: "Onboarding Portfolio",
+      subtitle: "Filter employees, inspect progress and review recommended actions"
+    },
+    diagnosis: {
+      title: "Root Cause Diagnosis",
+      subtitle: "Understand the friction patterns behind onboarding risk"
+    }
+  }
+
+  const resetFilters = () => {
+    setSelectedDepartment("All")
+    setSelectedStatus("All")
+    setSelectedManager("All")
+  }
+
+  const selectEmployee = (employee) => {
+    setSelectedEmployee((currentEmployee) =>
+      currentEmployee?.employee_id === employee.employee_id ? null : employee
+    )
+  }
+
+  useEffect(() => {
+    const handleOutsidePortfolioClick = (event) => {
+      if (
+        selectedEmployee &&
+        portfolioRef.current &&
+        !portfolioRef.current.contains(event.target)
+      ) {
+        setSelectedEmployee(null)
+      }
+    }
+
+    document.addEventListener("mousedown", handleOutsidePortfolioClick)
+
+    return () => {
+      document.removeEventListener("mousedown", handleOutsidePortfolioClick)
+    }
+  }, [selectedEmployee])
+
   return (
     <div className="app">
       <button
-        className="mobile-filter-toggle"
-        onClick={() => setShowMobileFilters(true)}
+        className="mobile-nav-toggle"
+        onClick={() => setShowMobileNav(true)}
       >
-        Show filters
+        <Menu size={18} />
+        Menu
       </button>
 
       <Sidebar
-        departments={departments}
-        selectedDepartment={selectedDepartment}
-        setSelectedDepartment={setSelectedDepartment}
-        selectedStatus={selectedStatus}
-        setSelectedStatus={setSelectedStatus}
-        managers={managers}
-        selectedManager={selectedManager}
-        setSelectedManager={setSelectedManager}
-        showMobileFilters={showMobileFilters}
-        setShowMobileFilters={setShowMobileFilters}
+        activePage={activePage}
+        setActivePage={setActivePage}
+        showMobileNav={showMobileNav}
+        setShowMobileNav={setShowMobileNav}
       />
 
-      {showMobileFilters && (
+      {showMobileNav && (
         <div
           className="sidebar-overlay"
-          onClick={() => setShowMobileFilters(false)}
+          onClick={() => setShowMobileNav(false)}
         />
       )}
 
       <main className="main">
         <Topbar />
 
-        <Header />
+        <Header
+          title={pageCopy[activePage].title}
+          subtitle={pageCopy[activePage].subtitle}
+          actions={
+            <div className="header-filter-wrapper">
+              <button
+                className="filter-button"
+                onClick={() => setShowFilters(!showFilters)}
+              >
+                <Filter size={18} />
+                Filters
+              </button>
+
+              {showFilters && (
+                <div className="filter-popover">
+                  <div className="filter-popover-header">
+                    <strong>Filters</strong>
+                    <button
+                      className="close-button"
+                      onClick={() => setShowFilters(false)}
+                      aria-label="Close filters"
+                    >
+                      <X size={16} />
+                    </button>
+                  </div>
+
+                  <div className="filter-group">
+                    <div className="filter-title">Department</div>
+
+                    <select
+                      className="filter-select"
+                      value={selectedDepartment}
+                      onChange={(event) => setSelectedDepartment(event.target.value)}
+                    >
+                      {departments.map((department) => (
+                        <option key={department} value={department}>
+                          {department}
+                        </option>
+                      ))}
+                    </select>
+                  </div>
+
+                  <div className="filter-group">
+                    <div className="filter-title">Status</div>
+
+                    <select
+                      className="filter-select"
+                      value={selectedStatus}
+                      onChange={(event) => setSelectedStatus(event.target.value)}
+                    >
+                      <option value="All">All</option>
+                      <option value="at_risk">At Risk</option>
+                      <option value="in_progress">In Progress</option>
+                      <option value="completed">Completed</option>
+                    </select>
+                  </div>
+
+                  <div className="filter-group">
+                    <div className="filter-title">Manager</div>
+
+                    <select
+                      className="filter-select"
+                      value={selectedManager}
+                      onChange={(event) => setSelectedManager(event.target.value)}
+                    >
+                      {managers.map((manager) => (
+                        <option key={manager} value={manager}>
+                          {manager}
+                        </option>
+                      ))}
+                    </select>
+                  </div>
+
+                  <button className="reset-button" onClick={resetFilters}>
+                    Reset filters
+                  </button>
+                </div>
+              )}
+            </div>
+          }
+        />
 
         <div className="content">
-          <h2>Company-wide Onboarding Overview</h2>
+          {activePage === "overview" && (
+            <>
+              <h2>Company-wide Onboarding Overview</h2>
 
-          <KpiGrid
-            data={{
-              totalEmployees,
-              atRisk,
-              inProgress,
-              completed
-            }}
-            setSelectedStatus={setSelectedStatus}
-          />
+              <KpiGrid
+                data={{
+                  totalEmployees,
+                  atRisk,
+                  inProgress,
+                  completed
+                }}
+              />
 
-          <SectionTitle title="Company Insights" linkText="View all insights" />
+              <SectionTitle title="Company Insights" />
 
-          <InsightsGrid
-            insights={{
-              totalFrictions,
-              avgCompletion: avgCompletion.toFixed(2),
-              atRiskRate,
-              topDepartment
-            }}
-          />
+              <InsightsGrid
+                insights={{
+                  totalFrictions,
+                  avgCompletion: avgCompletion.toFixed(2),
+                  atRiskRate,
+                  topDepartment
+                }}
+              />
 
-          <SectionTitle
-            title="Department Risk Distribution"
-            linkText="View department analysis"
-          />
+              <SectionTitle
+                title="Department Risk Distribution"
+              />
 
-          <DepartmentChart data={filteredData} />
+              <DepartmentChart data={filteredData} />
+            </>
+          )}
 
-          <SectionTitle title="Root Cause Diagnosis" linkText="View full analysis" />
+          {activePage === "portfolio" && (
+            <>
+              <div ref={portfolioRef}>
+                {selectedEmployee && (
+                  <>
+                    <SectionTitle title="Employee Details" />
+                    <EmployeeDetail employee={selectedEmployee} />
+                  </>
+                )}
 
-          <RootCauseDiagnosis />
+                <SectionTitle title="Onboarding Portfolio" />
 
-          <SectionTitle
-            title="Onboarding Portfolio"
-            linkText="View employee details"
-          />
+                <EmployeeTable
+                  employees={filteredData}
+                  selectedEmployee={selectedEmployee}
+                  setSelectedEmployee={selectEmployee}
+                />
+              </div>
+            </>
+          )}
 
-          <EmployeeDetail employee={selectedEmployee} />
+          {activePage === "diagnosis" && (
+            <>
+              <SectionTitle title="Root Cause Diagnosis" />
 
-          <EmployeeTable
-            employees={filteredData}
-            selectedEmployee={selectedEmployee}
-            setSelectedEmployee={setSelectedEmployee}
-          />
+              <RootCauseDiagnosis />
+
+              <SectionTitle
+                title="Department Risk Distribution"
+              />
+
+              <DepartmentChart data={filteredData} />
+            </>
+          )}
         </div>
       </main>
     </div>

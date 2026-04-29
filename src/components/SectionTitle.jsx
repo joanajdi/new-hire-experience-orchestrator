@@ -1,8 +1,7 @@
-function SectionTitle({ title, linkText }) {
+function SectionTitle({ title }) {
   return (
     <div className="section-title">
       <h2>{title}</h2>
-      {linkText && <a href="#">{linkText} →</a>}
     </div>
   )
 }
