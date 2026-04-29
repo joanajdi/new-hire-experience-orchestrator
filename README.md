@@ -63,13 +63,6 @@ This project combines data analysis and product thinking to transform onboarding
 
 ---
 
-## 📸 Screenshots
-
-<img width="2874" height="1436" alt="image" src="https://github.com/user-attachments/assets/7340a26d-62f4-4a7e-a9af-51565604d21e" />
-<img width="2880" height="1298" alt="image" src="https://github.com/user-attachments/assets/93dd0c43-91d9-4f20-9534-9c60f285646e" />
-
----
-
 ## 📌 Future Improvements
 
 - Predictive risk modeling
